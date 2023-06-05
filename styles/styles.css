@@ -175,7 +175,7 @@ body {
 
 /* subscribe */
 
-.subscribe {
+.index-subscribe {
   background-color: #422110;
   background-image: url("../image/mountain.jpg");
   background-size: 1200px 416px;
@@ -471,4 +471,17 @@ body {
 .pagination-link-expand {
   color: #000000;
   background-color: #ffffff;
+}
+
+/* subscribe */
+
+.catalog-subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.catalog-subscribe-description {
+  text-align: center;
 }
