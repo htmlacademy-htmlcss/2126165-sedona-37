@@ -130,7 +130,7 @@ body {
   color: #333333;
 }
 
-.services-item-blue {
+.services-item:nth-child(odd) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
