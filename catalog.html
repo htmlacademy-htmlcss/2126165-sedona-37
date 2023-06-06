@@ -98,6 +98,7 @@
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="housing-filter-group">
               <legend class="hotel-filter-title">Тип жилья:</legend>
               <ul class="housing-filter-list">
@@ -121,6 +122,7 @@
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="value-filter-group">
               <legend class="hotel-filter-title">Стоимость, ₽:</legend>
               <label class="visually-hidden" for="value-from">Стоимость, от</label>
@@ -130,6 +132,7 @@
               <label class="visually-hidden" for="value-range">Ползунок диапазона стоимости</label>
               <input class="value-filter-range" type="range" min="0" max="9000" value="7000" id="value-range">
             </fieldset>
+
             <button class="filter-apply-button" type="submit">Применить</button>
             <button class="filter-reset-button" type="reset">Сбросить</button>
           </form>
@@ -142,18 +145,18 @@
         <p class="found-hotels-title">Найдено гостиниц: 38</p>
 
         <select class="found-hotels-sort" aria-label="Сортировка">
-          <option value="cheap">Сначала дешевые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
+          <option class="found-hotels-option" value="cheap">Сначала дешевые</option>
+          <option class="found-hotels-option" value="expensive">Сначала дорогие</option>
+          <option class="found-hotels-option" value="popular">Сначала популярные</option>
         </select>
 
-        <button class="card-button" type="button">
+        <button class="view-button card-button" type="button">
           <span class="visually-hidden">Показать карточки</span>
         </button>
-        <button class="slide-show-button" type="button">
+        <button class="view-button slide-show-button" type="button">
           <span class="visually-hidden">Показать слайд-шоу</span>
         </button>
-        <button class="list-button" type="button">
+        <button class="view-button list-button" type="button">
           <span class="visually-hidden">Показать список</span>
         </button>
 
