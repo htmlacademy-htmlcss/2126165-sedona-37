@@ -27,17 +27,17 @@ body {
 /* header */
 
 .navigation-link {
-  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 700;
   color: #000000;
   text-decoration: none;
 }
 
 .wish-button {
-  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -67,9 +67,9 @@ body {
 /* advantages */
 
 .advantages-title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
@@ -118,9 +118,9 @@ body {
 /* services */
 
 .services-title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
@@ -150,9 +150,9 @@ body {
 /* hotel-search */
 
 .hotel-search-title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
@@ -163,9 +163,9 @@ body {
 }
 
 .hotel-search-button {
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -183,9 +183,9 @@ body {
 }
 
 .subscribe-title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
@@ -207,9 +207,9 @@ body {
 
 .subscribe-button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -243,25 +243,25 @@ body {
 }
 
 .modal-label {
-  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .modal-field {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
   background-color: #F2F2F2;
   border: none;
 }
 
 .field-value {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
   background-color: #F2F2F2;
   border: none;
@@ -291,9 +291,9 @@ body {
 
 .search-button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -338,9 +338,9 @@ body {
 /* hotel-filter */
 
 .hotel-filter-title {
-  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -352,16 +352,16 @@ body {
 
 .price-input {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .filter-apply-button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -371,9 +371,9 @@ body {
 
 .filter-reset-button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -384,9 +384,9 @@ body {
 /* found-hotels */
 
 .found-hotels-title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -417,9 +417,9 @@ body {
 }
 
 .more-button {
-  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -429,9 +429,9 @@ body {
 
 .favorite-button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -453,9 +453,9 @@ body {
 }
 
 .pagination-link {
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
