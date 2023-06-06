@@ -113,7 +113,8 @@ body {
   text-align: center;
 }
 
-.advantages-item:first-child, .advantages-item:last-child {
+.advantages-item:first-child,
+.advantages-item:last-child {
   background-color: #82b3d3;
   color: #ffffff;
 }
@@ -238,7 +239,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
@@ -284,7 +285,7 @@ body {
 .modal-close-button {
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
@@ -300,7 +301,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
@@ -311,13 +312,13 @@ body {
   line-height: 20px;
   font-weight: 700;
   text-align: center;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
 .calendar-button {
   padding: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
@@ -325,7 +326,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 21px;
-  color: #FF5757;
+  color: #ff5757;
 }
 
 .approval-message {
@@ -335,9 +336,10 @@ body {
   color: #333333;
 }
 
-.remove-button, .add-button {
+.remove-button,
+.add-button {
   padding: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
@@ -350,7 +352,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   border: none;
 }
 
@@ -562,7 +564,7 @@ body {
 }
 
 .favorite-button-current {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 .hotel-stars {
@@ -576,7 +578,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #333333;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 /* Пагинация */
@@ -600,7 +602,7 @@ body {
 
 .pagination-link-current {
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .pagination-link-expand {
