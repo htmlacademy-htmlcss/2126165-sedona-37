@@ -71,7 +71,7 @@ body {
 .lead {
   background-color: #422110;
   background-image: url("../image/mountain-background.jpg");
-  background-size: 1200px 485px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
@@ -212,7 +212,7 @@ body {
 .index-subscribe {
   background-color: #422110;
   background-image: url("../image/mountain.jpg");
-  background-size: 1200px 416px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
@@ -367,7 +367,7 @@ body {
 .header-wrapper {
   background-color: #422110;
   background-image: url("../image/filter-background.jpg");
-  background-size: 1200px 412px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
