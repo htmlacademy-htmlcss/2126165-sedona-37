@@ -240,7 +240,7 @@ body {
   line-height: 24px;
   color: #000000;
   background-color: #f2f2f2;
-  border: none;
+  border: 0;
 }
 
 .subscribe-button {
@@ -253,7 +253,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #82b3d3;
-  border: none;
+  border: 0;
 }
 
 /* Подвал */
@@ -286,7 +286,7 @@ body {
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
   background-color: #f2f2f2;
-  border: none;
+  border: 0;
 }
 
 .modal-label {
@@ -302,7 +302,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   background-color: #f2f2f2;
-  border: none;
+  border: 0;
 }
 
 .field-value {
@@ -313,13 +313,13 @@ body {
   font-weight: 700;
   text-align: center;
   background-color: #f2f2f2;
-  border: none;
+  border: 0;
 }
 
 .calendar-button {
   padding: 0;
   background-color: #f2f2f2;
-  border: none;
+  border: 0;
 }
 
 .notice-message {
@@ -340,7 +340,7 @@ body {
 .add-button {
   padding: 0;
   background-color: #f2f2f2;
-  border: none;
+  border: 0;
 }
 
 .search-button {
@@ -353,7 +353,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
-  border: none;
+  border: 0;
 }
 
 .tooltip-message {
@@ -400,7 +400,7 @@ body {
 .infrastructure-filter-group {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 0;
 }
 
 .hotel-filter-title {
@@ -420,7 +420,7 @@ body {
 .housing-filter-group {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 0;
 }
 
 .housing-filter-list {
@@ -442,7 +442,7 @@ body {
 .value-filter-group {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 0;
 }
 
 .price-input {
@@ -468,7 +468,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #82b3d3;
-  border: none;
+  border: 0;
 }
 
 .filter-reset-button {
@@ -481,7 +481,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
-  border: none;
+  border: 0;
 }
 
 /* Найденные гостиницы */
@@ -560,7 +560,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #82b3d3;
-  border: none;
+  border: 0;
 }
 
 .favorite-button-current {
