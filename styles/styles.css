@@ -14,7 +14,7 @@
   font-display: swap;
 }
 
-/* index */
+/* Главная */
 
 body {
   margin: 0;
@@ -25,7 +25,7 @@ body {
   background-color: #ffffff;
 }
 
-/* header */
+/* Шапка */
 
 .navigation-list {
   margin: 0;
@@ -66,9 +66,7 @@ body {
   background-color: #7db54f;
 }
 
-/* main */
-
-/* lead */
+/* Лид */
 
 .lead {
   background-color: #422110;
@@ -77,7 +75,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* advantages */
+/* Преимущества */
 
 .advantages-title {
   margin: 0;
@@ -138,7 +136,7 @@ body {
   color: #333333;
 }
 
-/* services */
+/* Услуги */
 
 .services-title {
   margin: 0;
@@ -181,7 +179,7 @@ body {
   color: #333333;
 }
 
-/* hotel-search */
+/* Поиск гостиницы */
 
 .hotel-search-title {
   margin: 0;
@@ -209,7 +207,7 @@ body {
   background-color: #756157;
 }
 
-/* subscribe */
+/* Подписка */
 
 .index-subscribe {
   background-color: #422110;
@@ -257,7 +255,7 @@ body {
   border: none;
 }
 
-/* footer */
+/* Подвал */
 
 .footer-social-list {
   margin: 0;
@@ -274,7 +272,7 @@ body {
   color: #000000;
 }
 
-/* modal */
+/* Модальное окно */
 
 .modal-title {
   margin: 0;
@@ -364,9 +362,7 @@ body {
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
-/* catalog */
-
-/* main */
+/* Каталог */
 
 .header-wrapper {
   background-color: #422110;
@@ -375,7 +371,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* header */
+/* Шапка фильтра */
 
 .main-title {
   margin: 0;
@@ -397,7 +393,7 @@ body {
   text-decoration: none;
 }
 
-/* hotel-filter */
+/* Фильтр */
 
 .infrastructure-filter-group {
   margin: 0;
@@ -486,7 +482,7 @@ body {
   border: none;
 }
 
-/* found-hotels */
+/* Найденные гостиницы */
 
 .found-hotels-title {
   margin: 0;
@@ -583,7 +579,7 @@ body {
   background-color: #F2F2F2;
 }
 
-/* pagination */
+/* Пагинация */
 
 .hotels-pagination {
   margin: 0;
@@ -612,7 +608,7 @@ body {
   background-color: #ffffff;
 }
 
-/* subscribe */
+/* Подписка */
 
 .catalog-subscribe-title {
   margin: 0;
