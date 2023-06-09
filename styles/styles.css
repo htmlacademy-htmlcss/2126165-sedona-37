@@ -104,6 +104,11 @@ body {
   background-size: 1200px 57px, cover;
 }
 
+.lead-description-image {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Преимущества */
 
 .advantages-title {
