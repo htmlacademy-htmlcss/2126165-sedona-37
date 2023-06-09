@@ -27,9 +27,26 @@
   overflow: hidden;
 }
 
-/* Главная */
+html {
+  height: 100%;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.main-wrapper {
+  flex-grow: 1;
+}
 
 body {
+  height: 100%;
   margin: 0;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 22px;
@@ -38,12 +55,7 @@ body {
   background-color: #f2f2f2;
 }
 
-.page-wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
+/* Главная */
 
 /* Шапка */
 
