@@ -67,6 +67,18 @@ body {
   list-style: none;
 }
 
+.navigation-buttons-link {
+  text-decoration: none;
+}
+
+.navigation-buttons-like {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #7db54f;
+}
+
 .wish-button {
   font-size: 16px;
   line-height: 20px;
@@ -76,14 +88,6 @@ body {
   text-decoration: none;
   color: #ffffff;
   background-color: #756157;
-}
-
-.navigation-buttons-like {
-  font-size: 10px;
-  line-height: 10px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #7db54f;
 }
 
 /* Лид */
