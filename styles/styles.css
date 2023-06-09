@@ -394,6 +394,10 @@ body {
 
 /* Модальное окно */
 
+.modal {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
 .modal-title {
   margin: 0;
   font-size: 30px;
