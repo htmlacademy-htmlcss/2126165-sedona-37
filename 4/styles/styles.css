@@ -14,6 +14,19 @@
   font-display: swap;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Главная */
 
 body {
@@ -22,7 +35,14 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #000000;
+  background-color: #f2f2f2;
+}
+
+.page-wrapper {
+  width: 1200px;
+  margin: 0 auto;
   background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Шапка */
@@ -47,6 +67,18 @@ body {
   list-style: none;
 }
 
+.navigation-buttons-link {
+  text-decoration: none;
+}
+
+.navigation-buttons-like {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #7db54f;
+}
+
 .wish-button {
   font-size: 16px;
   line-height: 20px;
@@ -58,22 +90,23 @@ body {
   background-color: #756157;
 }
 
-.navigation-buttons-like {
-  font-size: 10px;
-  line-height: 10px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #7db54f;
-}
-
 /* Лид */
 
 .lead {
-  width: 1200px;
-  height: 485px;
-  background: url("../image/lead-decor.svg") no-repeat 0 100%,
-    url("../image/mountain-background.jpg") no-repeat;
+  box-sizing: border-box;
+  min-height: 485px;
+  padding-top: 52px;
+  padding-bottom: 81px;
   background-color: #422110;
+  background-image: url("../image/lead-decor.svg"), url("../image/mountain-background.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, center top;
+  background-size: 1200px 57px, cover;
+}
+
+.lead-description-image {
+  display: block;
+  margin: 0 auto;
 }
 
 /* Преимущества */
@@ -268,7 +301,6 @@ body {
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
