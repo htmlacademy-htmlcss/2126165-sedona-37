@@ -306,10 +306,18 @@ body {
 /* Подписка */
 
 .index-subscribe {
+  box-sizing: border-box;
+  min-height: 415px;
+
   background-color: #422110;
   background-image: url("../image/mountain.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe-text-wrapper {
+  width: 475px;
+  margin: 0 auto;
 }
 
 .subscribe-title {
@@ -328,18 +336,27 @@ body {
   color: #ffffff;
 }
 
+.subscribe-form {
+  display: flex;
+  width: 684px;
+  margin: 0 auto;
+}
+
 .subscribe-field {
-  padding: 0;
+  box-sizing: border-box;
+  width: 452px;
+  padding: 14px 345px 14px 20px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
   background-color: #f2f2f2;
   border: 0;
+  border-radius: 4px 0 0 4px;
 }
 
 .subscribe-button {
-  padding: 0;
+  padding: 8px 50px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 20px;
   line-height: 36px;
@@ -349,9 +366,17 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   border: 0;
+  border-radius: 0 4px 4px 0;
 }
 
 /* Подвал */
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
+}
 
 .footer-social-list {
   margin: 0;
