@@ -59,10 +59,25 @@ body {
 
 /* Шапка */
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 70;
+}
+
 .navigation-list {
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 455px;
+  margin-left: 184px;
 }
 
 .navigation-link {
@@ -74,7 +89,9 @@ body {
 }
 
 .navigation-buttons-list {
+  width: 270px;
   margin: 0;
+  /* margin-left: auto; */
   padding: 0;
   list-style: none;
 }
@@ -110,7 +127,8 @@ body {
   padding-top: 52px;
   padding-bottom: 81px;
   background-color: #422110;
-  background-image: url("../image/lead-decor.svg"), url("../image/mountain-background.jpg");
+  background-image: url("../image/lead-decor.svg"),
+    url("../image/mountain-background.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: left bottom, center top;
   background-size: 1200px 57px, cover;
@@ -122,6 +140,11 @@ body {
 }
 
 /* Преимущества */
+
+.description-wrapper {
+  width: 651px;
+  margin: 0 auto;
+}
 
 .advantages-title {
   margin: 0;
