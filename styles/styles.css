@@ -162,9 +162,19 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.advantages-item {
+  display: flex;
+}
+
+.advantages-item-wrapper {
+  width: 400px;
 }
 
 .advantages-item-title {
