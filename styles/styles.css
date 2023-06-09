@@ -379,17 +379,23 @@ body {
 }
 
 .footer-social-list {
+  width: 142px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .footer-phone {
+  width: 331px;
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+}
+
+.footer-logo {
+  width: 115px;
 }
 
 /* Модальное окно */
