@@ -239,9 +239,14 @@ body {
 }
 
 .services-list {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.services-item {
+  width: 400px;
 }
 
 .services-item:nth-child(odd) {
@@ -266,18 +271,24 @@ body {
 
 /* Поиск гостиницы */
 
+.hotel-search {
+  width: 592px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .hotel-search-title {
   margin: 0;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
 }
 
 .hotel-search-description {
   margin: 0;
-  text-align: center;
+  /* text-align: center; */
   color: #333333;
 }
 
