@@ -645,9 +645,25 @@ body {
 }
 
 .hotels-card-list {
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
+}
+
+.hotels-card-item {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-basis: 340px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+.hotels-card-item:nth-child(4) {
+  margin-bottom: 0;
 }
 
 .card-link-title {
