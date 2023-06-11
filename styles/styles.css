@@ -734,7 +734,9 @@ body {
 /* Пагинация */
 
 .hotels-pagination {
-  margin: 0;
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
 }
