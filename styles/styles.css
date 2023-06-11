@@ -145,6 +145,8 @@ body {
 .advantages-text-wrapper {
   width: 651px;
   margin: 0 auto;
+  padding-top: 69px;
+  padding-bottom: 69px;
 }
 
 .advantages-title {
@@ -222,6 +224,8 @@ body {
 .services-text-wrapper {
   width: 505px;
   margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .services-title {
@@ -275,6 +279,8 @@ body {
 .hotel-search {
   width: 592px;
   margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
 }
 
