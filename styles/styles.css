@@ -497,10 +497,14 @@ body {
 /* Каталог */
 
 .header-wrapper {
+  box-sizing: border-box;
+  min-height: 412px;
+  padding: 35px 70px 70px 70px;
   background-color: #422110;
   background-image: url("../image/filter-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 /* Шапка фильтра */
