@@ -70,7 +70,6 @@ body {
 .header-logo {
   position: absolute;
   top: 0;
-  left: 70;
 }
 
 .navigation-list {
@@ -538,8 +537,15 @@ body {
 
 /* Фильтр */
 
+.hotel-filter-form {
+  display: flex;
+
+}
+
 .infrastructure-filter-group {
+  flex-basis: 150px;
   margin: 0;
+  margin-right: 70px;
   padding: 0;
   border: 0;
 }
@@ -559,7 +565,9 @@ body {
 }
 
 .housing-filter-group {
+  flex-basis: 150px;
   margin: 0;
+  margin-right: 140px;
   padding: 0;
   border: 0;
 }
@@ -581,7 +589,9 @@ body {
 }
 
 .value-filter-group {
+  width: 288px;
   margin: 0;
+  margin-right: 70px;
   padding: 0;
   border: 0;
 }
@@ -597,6 +607,12 @@ body {
 
 .value-filter-range {
   margin: 0;
+}
+
+.filter-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 191px;
 }
 
 .filter-apply-button {
@@ -627,6 +643,12 @@ body {
 
 /* Найденные гостиницы */
 
+.sort-wrapper {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .found-hotels-title {
   margin: 0;
   font-size: 30px;
@@ -636,6 +658,7 @@ body {
 }
 
 .found-hotels-sort {
+  margin-left: 200px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -644,6 +667,14 @@ body {
 
 .found-hotels-option {
   padding: 0;
+}
+
+.view-list {
+  width: 160px;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
 }
 
 .view-button {
