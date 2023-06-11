@@ -765,6 +765,13 @@ body {
 
 /* Подписка */
 
+.catalog-subscribe {
+  box-sizing: border-box;
+  min-height: 415px;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
 .catalog-subscribe-title {
   margin: 0;
   font-size: 30px;
