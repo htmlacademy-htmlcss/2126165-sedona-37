@@ -537,8 +537,15 @@ body {
 
 /* Фильтр */
 
+.hotel-filter-form {
+  display: flex;
+
+}
+
 .infrastructure-filter-group {
+  flex-basis: 150px;
   margin: 0;
+  margin-right: 70px;
   padding: 0;
   border: 0;
 }
@@ -558,7 +565,9 @@ body {
 }
 
 .housing-filter-group {
+  flex-basis: 150px;
   margin: 0;
+  margin-right: 140px;
   padding: 0;
   border: 0;
 }
@@ -580,7 +589,9 @@ body {
 }
 
 .value-filter-group {
+  width: 288px;
   margin: 0;
+  margin-right: 70px;
   padding: 0;
   border: 0;
 }
@@ -596,6 +607,12 @@ body {
 
 .value-filter-range {
   margin: 0;
+}
+
+.filter-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 191px;
 }
 
 .filter-apply-button {
