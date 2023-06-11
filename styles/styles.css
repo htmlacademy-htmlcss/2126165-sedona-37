@@ -60,6 +60,7 @@ body {
 /* Шапка */
 
 .header-nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   width: 1060px;
