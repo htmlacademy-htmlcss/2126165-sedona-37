@@ -53,7 +53,7 @@
       </header>
 
       <!-- Основное содержимое -->
-      <main class="catalog-main">
+      <main class="main-wrapper catalog-main">
 
         <div class="header-wrapper">
 
@@ -139,8 +139,10 @@
                 <input class="value-filter-range" type="range" min="0" max="9000" value="7000" id="value-range">
               </fieldset>
 
-              <button class="filter-apply-button" type="submit">Применить</button>
-              <button class="filter-reset-button" type="reset">Сбросить</button>
+              <div class="filter-buttons-wrapper">
+                <button class="filter-apply-button" type="submit">Применить</button>
+                <button class="filter-reset-button" type="reset">Сбросить</button>
+              </div>
             </form>
 
           </section>
@@ -149,23 +151,34 @@
 
         <!-- Найденные гостиницы -->
         <section class="found-hotels">
-          <p class="found-hotels-title">Найдено гостиниц: 38</p>
+          <div class="sort-wrapper">
+            <p class="found-hotels-title">Найдено гостиниц: 38</p>
 
-          <select class="found-hotels-sort" aria-label="Сортировка">
-            <option class="found-hotels-option" value="cheap">Сначала дешевые</option>
-            <option class="found-hotels-option" value="expensive">Сначала дорогие</option>
-            <option class="found-hotels-option" value="popular">Сначала популярные</option>
-          </select>
+            <select class="found-hotels-sort" aria-label="Сортировка">
+              <option class="found-hotels-option" value="cheap">Сначала дешевые</option>
+              <option class="found-hotels-option" value="expensive">Сначала дорогие</option>
+              <option class="found-hotels-option" value="popular">Сначала популярные</option>
+            </select>
 
-          <button class="view-button card-button" type="button">
-            <span class="visually-hidden">Показать карточки</span>
-          </button>
-          <button class="view-button slide-show-button" type="button">
-            <span class="visually-hidden">Показать слайд-шоу</span>
-          </button>
-          <button class="view-button list-button" type="button">
-            <span class="visually-hidden">Показать список</span>
-          </button>
+            <ul class="view-list">
+              <li class="view-item">
+                <button class="view-button card-button" type="button">
+                  <span class="visually-hidden">Показать карточки</span>
+                </button>
+              </li>
+              <li class="view-item">
+                <button class="view-button slide-show-button" type="button">
+                  <span class="visually-hidden">Показать слайд-шоу</span>
+                </button>
+              </li>
+              <li class="view-item">
+                <button class="view-button list-button" type="button">
+                  <span class="visually-hidden">Показать список</span>
+                </button>
+              </li>
+            </ul>
+
+          </div>
 
           <ul class="hotels-card-list">
             <li class="hotels-card-item">
@@ -262,11 +275,13 @@
 
         <!-- Подписка -->
         <section class="catalog-subscribe">
-          <h2 class="catalog-subscribe-title">Подпишитесь на рассылку</h2>
-          <p class="catalog-subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!
-          </p>
+          <div class="subscribe-text-wrapper">
+            <h2 class="catalog-subscribe-title">Подпишитесь на рассылку</h2>
+            <p class="catalog-subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!
+            </p>
+          </div>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email</label>
+            <label class="visually-hidden" for="newsletter-email">Email</label>
             <input class="subscribe-field" type="email" placeholder="Ваш e-mail" name="newsletter-email"
               id="newsletter-email" required>
             <button class="subscribe-button" type="submit">Подписаться</button>
@@ -310,8 +325,9 @@
             </a>
           </li>
         </ul>
-
-        <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <div class="phone-wrapper">
+          <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </div>
         <a class="footer-logo" href="https://htmlacademy.ru/">
           <img src="image/logo-academy.svg" width="115" height="33" alt="Логотип Htmlacademy.">
         </a>
