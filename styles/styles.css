@@ -142,7 +142,7 @@ body {
 /* Преимущества */
 
 .advantages-text-wrapper {
-  width: 651px;
+  width: 800px;
   margin: 0 auto;
   padding-top: 69px;
   padding-bottom: 69px;
@@ -276,7 +276,7 @@ body {
 /* Поиск гостиницы */
 
 .hotel-search {
-  width: 592px;
+  width: 800px;
   margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 96px;
@@ -288,13 +288,11 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  /* text-align: center; */
   text-transform: uppercase;
 }
 
 .hotel-search-description {
   margin: 0;
-  /* text-align: center; */
   color: #333333;
 }
 
@@ -323,7 +321,7 @@ body {
 }
 
 .subscribe-text-wrapper {
-  width: 475px;
+  width: 540px;
   margin: 0 auto;
 }
 
