@@ -571,13 +571,8 @@ body {
 
 /* Шапка фильтра */
 
-.catalog-main-header {
-  margin-bottom: 40px;
-}
-
 .main-title {
   margin: 0;
-  margin-bottom: 8px;
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
@@ -611,7 +606,6 @@ body {
 }
 
 .hotel-filter-title {
-  margin-bottom: 32px;
   padding: 0;
   font-size: 20px;
   line-height: 24px;
@@ -623,10 +617,6 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.infrastructure-filter-item:not(:last-child) {
-  margin-bottom: 16px;
 }
 
 .housing-filter-group {
@@ -641,10 +631,6 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.housing-filter-item:not(:last-child) {
-  margin-bottom: 16px;
 }
 
 .control {
