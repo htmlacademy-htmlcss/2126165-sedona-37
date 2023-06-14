@@ -19,8 +19,8 @@
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: none;
   padding: 0;
+  border: none;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -73,14 +73,18 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
   width: 455px;
-  margin-left: 184px;
+  margin-left: 169px;
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -89,34 +93,46 @@ body {
 }
 
 .navigation-buttons-list {
-  width: 270px;
+  display: flex;
+  align-items: center;
+  min-width: 270px;
   margin: 0;
-  /* margin-left: auto; */
   padding: 0;
   list-style: none;
 }
 
+.navigation-buttons-item:last-child {
+  margin-left: auto;
+}
+
 .navigation-buttons-link {
+  display: block;
+  min-width: 20px;
+  min-height: 20px;
   text-decoration: none;
 }
 
 .navigation-buttons-like {
+  padding: 5px;
+  padding-left: 4px;
   font-size: 10px;
   line-height: 10px;
   text-align: center;
   color: #ffffff;
   background-color: #7db54f;
+  border-radius: 10px;
 }
 
 .wish-button {
+  padding: 8px 34px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: none;
   color: #ffffff;
   background-color: #756157;
+  border-radius: 4px;
 }
 
 /* Лид */
