@@ -904,6 +904,7 @@ body {
 
 .catalog-subscribe-title {
   margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -912,5 +913,6 @@ body {
 
 .catalog-subscribe-description {
   margin: 0;
+  margin-bottom: 54px;
   text-align: center;
 }
