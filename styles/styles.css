@@ -365,6 +365,7 @@ body {
 
 .subscribe-title {
   margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -375,6 +376,7 @@ body {
 
 .subscribe-description {
   margin: 0;
+  margin-bottom: 54px;
   text-align: center;
   color: #ffffff;
 }
