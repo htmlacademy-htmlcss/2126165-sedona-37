@@ -63,8 +63,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 1060px;
-  margin: 0 auto;
+  padding: 0 70px;
 }
 
 .header-logo {
