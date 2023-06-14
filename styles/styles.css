@@ -717,6 +717,7 @@ body {
 /* Найденные гостиницы */
 
 .found-hotels {
+  margin-bottom: 96px;
   padding: 50px 70px 60px;
 }
 
@@ -767,8 +768,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1060px;
-  margin: 0 auto;
+  margin: 0;
+  margin-bottom: 80px;
   padding: 0;
   list-style: none;
 }
@@ -854,13 +855,18 @@ body {
 
 .hotels-pagination {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.hotels-pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .pagination-link {
+  display: block;
+  padding: 12px 25px 13px 24px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -869,6 +875,7 @@ body {
   text-decoration: none;
   color: #ffffff;
   background-color: #82b3d3;
+  border-radius: 4px;
 }
 
 .pagination-link-current {
@@ -877,8 +884,13 @@ body {
 }
 
 .pagination-link-expand {
+  padding: 13px 21px 12px;
   color: #000000;
   background-color: #ffffff;
+}
+
+.hotels-pagination-item:last-child .pagination-link {
+  padding: 12px 20px 13px;
 }
 
 /* Подписка */
