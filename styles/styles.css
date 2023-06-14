@@ -716,10 +716,14 @@ body {
 
 /* Найденные гостиницы */
 
+.found-hotels {
+  padding: 50px 70px 60px;
+}
+
 .sort-wrapper {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .found-hotels-title {
@@ -732,10 +736,13 @@ body {
 
 .found-hotels-sort {
   margin-left: 200px;
+  padding: 14px 77px 12px 16px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
 }
 
 .found-hotels-option {
@@ -743,6 +750,7 @@ body {
 }
 
 .view-list {
+  display: flex;
   width: 160px;
   margin: 0;
   margin-left: auto;
