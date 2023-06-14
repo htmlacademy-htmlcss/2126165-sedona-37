@@ -79,7 +79,7 @@ body {
   padding: 0;
   list-style: none;
   width: 455px;
-  margin-left: 169px;
+  margin-left: 168px;
 }
 
 .navigation-link {
@@ -160,12 +160,14 @@ body {
 .advantages-text-wrapper {
   width: 800px;
   margin: 0 auto;
+  margin-bottom: 20px;
   padding-top: 69px;
   padding-bottom: 69px;
 }
 
 .advantages-title {
   margin: 0;
+  margin-bottom: 26px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -192,11 +194,22 @@ body {
 }
 
 .advantages-item-wrapper {
+  box-sizing: border-box;
+  padding: 113px 85px;
   width: 400px;
+}
+
+.advantages-item:first-child .advantages-item-wrapper {
+  padding: 102px 85px;
+}
+
+.advantages-item:last-child .advantages-item-wrapper {
+  padding: 102px 85px;
 }
 
 .advantages-item-title {
   margin: 0;
+  margin-bottom: 62px;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
