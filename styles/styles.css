@@ -308,7 +308,6 @@ body {
 /* Поиск гостиницы */
 
 .hotel-search {
-  width: 800px;
   margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 96px;
@@ -317,6 +316,7 @@ body {
 
 .hotel-search-title {
   margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -325,10 +325,15 @@ body {
 
 .hotel-search-description {
   margin: 0;
+  margin-bottom: 54px;
   color: #333333;
 }
 
 .hotel-search-button {
+  display: block;
+  width: 376px;
+  margin: 0 auto;
+  padding: 8px 50px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -337,6 +342,7 @@ body {
   text-decoration: none;
   color: #ffffff;
   background-color: #756157;
+  border-radius: 4px;
 }
 
 /* Подписка */
