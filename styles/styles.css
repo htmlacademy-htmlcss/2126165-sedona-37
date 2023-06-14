@@ -600,7 +600,6 @@ body {
 
 .hotel-filter-form {
   display: flex;
-
 }
 
 .infrastructure-filter-group {
@@ -627,7 +626,7 @@ body {
 }
 
 .infrastructure-filter-item:not(:last-child) {
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 .housing-filter-group {
@@ -682,11 +681,12 @@ body {
 .filter-buttons-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   width: 191px;
 }
 
 .filter-apply-button {
-  padding: 0;
+  padding: 8px 50px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -696,10 +696,12 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   border: none;
+  border-radius: 4px;
 }
 
 .filter-reset-button {
-  padding: 0;
+  margin-top: 32px;
+  padding: 8px 50px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -709,6 +711,7 @@ body {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
   border: none;
+  border-radius: 4px;
 }
 
 /* Найденные гостиницы */
