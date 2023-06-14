@@ -330,6 +330,7 @@ body {
 }
 
 .hotel-search-button {
+  box-sizing: border-box;
   display: block;
   width: 376px;
   margin: 0 auto;
@@ -417,17 +418,29 @@ body {
 /* Подвал */
 
 .page-footer {
+  padding: 45px 70px 35px;
+}
+
+.footer-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 1060px;
-  margin: 0 auto;
+  align-items: center;
 }
 
 .footer-social-list {
+  display: flex;
   width: 142px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.footer-social-button {
+  width: 48px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .phone-wrapper {
