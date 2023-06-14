@@ -258,6 +258,7 @@ body {
 
 .services-title {
   margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -279,6 +280,7 @@ body {
 }
 
 .services-item {
+  padding: 81px 85px;
   width: 400px;
 }
 
@@ -288,6 +290,7 @@ body {
 
 .services-item-title {
   margin: 0;
+  padding-bottom: 31px;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
