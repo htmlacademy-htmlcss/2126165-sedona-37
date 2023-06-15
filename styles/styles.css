@@ -93,6 +93,7 @@ body {
 
 .navigation-buttons-list {
   display: flex;
+  justify-content: end;
   align-items: center;
   min-width: 270px;
   margin: 0;
@@ -101,7 +102,7 @@ body {
 }
 
 .navigation-buttons-item:last-child {
-  margin-left: auto;
+  margin-left: 20px;
 }
 
 .navigation-buttons-link {
