@@ -430,14 +430,15 @@ body {
 
 .footer-social-list {
   display: flex;
-  width: 142px;
+  flex-wrap: wrap;
+  max-width: 142px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .footer-social-button {
-  width: 48px;
+  width: 47px;
   height: 40px;
   display: flex;
   align-items: center;
