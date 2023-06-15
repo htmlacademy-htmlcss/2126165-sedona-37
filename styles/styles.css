@@ -274,12 +274,14 @@ body {
 
 .services-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .services-item {
+  box-sizing: border-box;
   padding: 81px 85px;
   width: 400px;
 }
