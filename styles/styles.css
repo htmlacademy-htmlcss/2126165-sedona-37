@@ -95,7 +95,7 @@ body {
 .navigation-buttons-list {
   display: flex;
   justify-content: end;
-  align-items: center;
+  align-items: flex-start;
   min-width: 270px;
   margin: 0;
   padding: 0;
