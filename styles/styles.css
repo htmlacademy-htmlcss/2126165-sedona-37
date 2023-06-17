@@ -334,15 +334,11 @@ body {
 
 /* Подписка */
 
-.index-subscribe {
+.subscribe {
   box-sizing: border-box;
   min-height: 415px;
   padding-top: 96px;
   padding-bottom: 104px;
-  background-color: #422110;
-  background-image: url("../image/mountain.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .subscribe-title {
@@ -354,7 +350,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
 }
 
 .subscribe-description {
@@ -362,6 +357,20 @@ body {
   margin: 0 auto;
   margin-bottom: 54px;
   text-align: center;
+}
+
+.index-subscribe {
+  background-color: #422110;
+  background-image: url("../image/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-subscribe .subscribe-title {
+  color: #ffffff;
+}
+
+.index-subscribe .subscribe-description {
   color: #ffffff;
 }
 
@@ -694,7 +703,6 @@ body {
 /* Найденные гостиницы */
 
 .found-hotels {
-  margin-bottom: 96px;
   padding: 50px 70px 60px;
 }
 
@@ -868,28 +876,4 @@ body {
 
 .hotels-pagination-item:last-child .pagination-link {
   padding: 12px 20px 13px;
-}
-
-/* Подписка */
-
-.catalog-subscribe {
-  box-sizing: border-box;
-  min-height: 415px;
-  padding-top: 96px;
-  padding-bottom: 104px;
-}
-
-.catalog-subscribe-title {
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.catalog-subscribe-description {
-  margin: 0;
-  margin-bottom: 54px;
-  text-align: center;
 }
