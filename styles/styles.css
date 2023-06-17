@@ -584,6 +584,8 @@ body {
 
 .hotel-filter-form {
   display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .infrastructure-filter-group {
