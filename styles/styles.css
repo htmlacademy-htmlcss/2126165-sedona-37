@@ -94,6 +94,7 @@ body {
 
 .navigation-buttons-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: end;
   align-items: flex-start;
   min-width: 270px;
