@@ -428,7 +428,9 @@ body {
 }
 
 .phone-wrapper {
-  width: 720px;
+  display: flex;
+  flex-direction: column;
+  width: 378px;
   text-align: center;
 }
 
