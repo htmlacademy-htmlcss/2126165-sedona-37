@@ -192,6 +192,11 @@ body {
   display: flex;
 }
 
+.advantages-item-image {
+  height: 100%;
+  object-fit: cover;
+}
+
 .advantages-item-wrapper {
   box-sizing: border-box;
   padding: 113px 85px;
