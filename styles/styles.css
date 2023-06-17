@@ -312,9 +312,7 @@ body {
 }
 
 .hotel-search-button {
-  box-sizing: border-box;
-  display: block;
-  width: 376px;
+  display: inline-block;
   margin: 0 auto;
   padding: 8px 50px;
   font-size: 20px;
