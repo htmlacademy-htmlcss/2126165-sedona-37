@@ -145,17 +145,13 @@ body {
   min-height: 485px;
   padding-top: 52px;
   padding-bottom: 81px;
+  text-align: center;
   background-color: #422110;
   background-image: url("../image/lead-decor.svg"),
     url("../image/mountain-background.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: left bottom, center top;
   background-size: 1200px 57px, cover;
-}
-
-.lead-description-image {
-  display: block;
-  margin: 0 auto;
 }
 
 /* Преимущества */
