@@ -344,12 +344,12 @@ body {
 }
 
 .subscribe-text-wrapper {
-  width: 540px;
-  margin: 0 auto;
+
 }
 
 .subscribe-title {
-  margin: 0;
+  width: 540px;
+  margin: 0 auto;
   margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
@@ -360,7 +360,8 @@ body {
 }
 
 .subscribe-description {
-  margin: 0;
+  width: 540px;
+  margin: 0 auto;
   margin-bottom: 54px;
   text-align: center;
   color: #ffffff;
