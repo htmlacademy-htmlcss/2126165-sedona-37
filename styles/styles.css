@@ -161,13 +161,9 @@ body {
   text-align: center;
 }
 
-.advantages-text-wrapper {
-  margin-bottom: 20px;
-  padding: 0 274px 69px;
-}
-
 .advantages-title {
-  margin: 0;
+  width: 620px;
+  margin: 0 auto;
   margin-bottom: 26px;
   font-size: 30px;
   line-height: 36px;
@@ -176,7 +172,9 @@ body {
 }
 
 .advantages-reason {
-  margin: 0;
+  width: 660px;
+  margin: 0 auto;
+  margin-bottom: 90px;
   color: #333333;
 }
 
@@ -235,26 +233,25 @@ body {
 
 /* Услуги */
 
-.services-text-wrapper {
-  width: 505px;
-  margin: 0 auto;
+.services {
   padding-top: 64px;
-  padding-bottom: 64px;
+  text-align: center;
 }
 
 .services-title {
-  margin: 0;
+  width: 505px;
+  margin: 0 auto;
   margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
 }
 
 .services-description {
-  margin: 0;
-  text-align: center;
+  width: 505px;
+  margin: 0 auto;
+  margin-bottom: 64px;
   color: #333333;
 }
 
@@ -281,7 +278,6 @@ body {
   padding-bottom: 31px;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -289,7 +285,6 @@ body {
   margin: 0;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
   color: #333333;
 }
 
