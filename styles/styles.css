@@ -749,9 +749,9 @@ body {
 }
 
 .hotels-card-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
   margin: 0;
   margin-bottom: 80px;
   padding: 0;
@@ -759,20 +759,17 @@ body {
 }
 
 .hotels-card-item {
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  flex-basis: 340px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
-}
-
-.hotels-card-item:nth-child(4) {
-  margin-bottom: 0;
 }
 
 .card-link-title {
   color: #000000;
   text-decoration: none;
+}
+
+.hotels-card-image {
+  display: block;
 }
 
 .hotels-card-title {
