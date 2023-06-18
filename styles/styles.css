@@ -458,33 +458,60 @@ body {
 /* Модальное окно */
 
 .modal {
+  box-sizing: border-box;
+  width: 717px;
   padding: 64px 70px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
 }
 
+.modal-wrapper {
+  position: relative;
+}
+
+.modal-search-form {
+  width: 577px;
+  display: flex;
+  flex-direction: column;
+}
+
 .modal-title {
   margin: 0;
+  margin-bottom: 64px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
 
 .modal-close-button {
-  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 543px;
+  padding: 18px 18px 15px 18px;
   font-family: inherit;
   background-color: #f2f2f2;
   border: none;
+  border-radius: 50%;
+}
+
+.modal-date-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 .modal-label {
+  margin-right: auto;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
 }
 
 .modal-field {
-  padding: 0;
+  box-sizing: border-box;
+  width: 380px;
+  padding: 12px 227px 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
@@ -505,34 +532,63 @@ body {
 }
 
 .calendar-button {
-  padding: 0;
+  width: 60px;
   background-color: #f2f2f2;
   border: none;
 }
 
 .notice-message {
+  box-sizing: border-box;
+  width: 320px;
   margin: 0;
+  margin-left: 137px;
+  margin-bottom: 23px;
+  padding: 0 20px;
   font-size: 16px;
   line-height: 21px;
   color: #ff5757;
 }
 
 .approval-message {
+  box-sizing: border-box;
+  width: 371px;
   margin: 0;
+  margin-left: 137px;
+  margin-bottom: 23px;
+  padding: 0 20px;
   font-size: 16px;
   line-height: 21px;
   color: #333333;
 }
 
+.modal-count-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.modal-count-wrapper {
+  margin: 0;
+}
+
+.modal-count-wrapper .modal-label {
+  margin-right: 46px;
+}
+
 .remove-button,
 .add-button {
-  padding: 0;
+  width: 40px;
   background-color: #f2f2f2;
   border: none;
 }
 
+.field-value {
+  width: 31px;
+  padding: 14px 10px;
+}
+
 .search-button {
-  padding: 18px 265px;
+  padding: 18px 257px;
   font-family: inherit;
   font-size: 20px;
   line-height: 24px;
@@ -543,6 +599,10 @@ body {
   background-color: #83b3d3;
   border: none;
   border-radius: 10px;
+}
+
+.tooltip {
+  display: none;
 }
 
 .tooltip-message {
