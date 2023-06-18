@@ -437,8 +437,7 @@ body {
 }
 
 .phone-wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   width: 378px;
   text-align: center;
 }
