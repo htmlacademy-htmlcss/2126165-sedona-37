@@ -98,8 +98,8 @@ body {
   flex-wrap: wrap;
   justify-content: end;
   min-width: 270px;
-  margin: 14px 0;
-  padding: 0;
+  margin: 0;
+  padding: 14px 0;
   list-style: none;
 }
 
