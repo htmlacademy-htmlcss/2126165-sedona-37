@@ -438,11 +438,12 @@ body {
 
 .phone-wrapper {
   display: grid;
-  width: 378px;
+  width: 450px;
   text-align: center;
 }
 
 .footer-phone {
+  margin-bottom: 10px;
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
