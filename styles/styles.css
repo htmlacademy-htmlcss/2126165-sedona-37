@@ -845,6 +845,7 @@ body {
 }
 
 .card-link-title {
+  flex-grow: 1;
   margin-bottom: 16px;
 }
 
@@ -858,7 +859,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px 20px;
-  margin-top: auto;
 }
 
 .hotels-card-text {
