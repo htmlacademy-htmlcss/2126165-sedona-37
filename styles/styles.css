@@ -855,7 +855,7 @@ body {
 
 .hotels-card-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 140px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px 20px;
   margin-top: auto;
 }
@@ -887,7 +887,7 @@ body {
 }
 
 .favorite-button {
-  padding: 8px 20px;
+  padding: 8px 18px;
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
