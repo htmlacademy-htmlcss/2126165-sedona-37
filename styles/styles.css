@@ -842,6 +842,7 @@ body {
 
 .hotels-card-image {
   display: block;
+  object-fit: cover;
 }
 
 .card-link-title {
