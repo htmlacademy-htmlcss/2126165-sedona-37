@@ -712,7 +712,8 @@ body {
 }
 
 .price-input {
-  padding: 0;
+  width: 106px;
+  padding: 12px 0 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
