@@ -506,6 +506,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 .modal-field {
@@ -670,6 +671,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  text-transform: capitalize;
   color: #ffffff;
 }
 
@@ -855,6 +857,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 140px);
   gap: 16px 20px;
+  margin-top: auto;
 }
 
 .hotels-card-text {
