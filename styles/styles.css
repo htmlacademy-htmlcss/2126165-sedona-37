@@ -459,15 +459,29 @@ body {
 /* Модальное окно */
 
 .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(242, 242, 242, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-show {
+  display: flex;
+}
+
+.modal-wrapper {
+  position: relative;
   box-sizing: border-box;
   width: 717px;
   padding: 64px 70px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
-}
-
-.modal-wrapper {
-  position: relative;
+  background-color: #ffffff;
 }
 
 .modal-search-form {
@@ -486,8 +500,8 @@ body {
 
 .modal-close-button {
   position: absolute;
-  top: 0;
-  left: 543px;
+  top: 64px;
+  left: 613px;
   padding: 18px 18px 15px 18px;
   font-family: inherit;
   background-color: #f2f2f2;
