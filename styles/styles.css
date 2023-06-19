@@ -907,7 +907,31 @@ body {
 }
 
 .hotel-stars {
+  align-self: center;
   margin: 0;
+  height: 17px;
+  width: 18px;
+  background: url("../image/star.svg") space 0 0;
+}
+
+.hotel-stars-one {
+  width: 18px;
+}
+
+.hotel-stars-two {
+  width: 42px;
+}
+
+.hotel-stars-three {
+  width: 66px;
+}
+
+.hotel-stars-four {
+  width: 89px;
+}
+
+.hotel-stars-five {
+  width: 106px;
 }
 
 .hotels-card-rating {
