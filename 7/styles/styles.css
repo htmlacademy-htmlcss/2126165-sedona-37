@@ -63,6 +63,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   padding: 0 70px;
 }
 
@@ -96,9 +97,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
-  align-items: flex-start;
   min-width: 270px;
-  margin: 0;
+  margin: 14px 0;
   padding: 0;
   list-style: none;
 }
@@ -564,6 +564,7 @@ body {
 .modal-count-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 48px;
 }
 
@@ -711,7 +712,8 @@ body {
 }
 
 .price-input {
-  padding: 0;
+  width: 106px;
+  padding: 12px 0 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
