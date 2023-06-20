@@ -852,8 +852,8 @@ body {
 }
 
 .hotels-card-item {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 16px;
   padding: 20px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
@@ -861,7 +861,6 @@ body {
 
 .card-link-image {
   order: -1;
-  margin-bottom: 16px;
 }
 
 .hotels-card-image {
@@ -871,7 +870,6 @@ body {
 
 .card-link-title {
   flex-grow: 1;
-  margin-bottom: 16px;
   color: #000000;
   text-decoration: none;
 }
