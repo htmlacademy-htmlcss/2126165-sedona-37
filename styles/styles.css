@@ -853,13 +853,17 @@ body {
 
 .hotels-card-item {
   display: grid;
+  grid-template-columns: repeat(2, 140px);
+  justify-content: space-between;
   gap: 16px;
+  min-width: 300px;
   padding: 20px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
 }
 
 .card-link-image {
+  grid-column: 1 / -1;
   order: -1;
 }
 
@@ -869,7 +873,7 @@ body {
 }
 
 .card-link-title {
-  flex-grow: 1;
+  grid-column: 1 / -1;
   color: #000000;
   text-decoration: none;
 }
