@@ -839,6 +839,8 @@ body {
   border: none;
 }
 
+/* Карточки */
+
 .hotels-card-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
@@ -857,12 +859,8 @@ body {
   border-radius: 4px;
 }
 
-.card-link-title {
-  color: #000000;
-  text-decoration: none;
-}
-
 .card-link-image {
+  order: -1;
   margin-bottom: 16px;
 }
 
@@ -874,6 +872,8 @@ body {
 .card-link-title {
   flex-grow: 1;
   margin-bottom: 16px;
+  color: #000000;
+  text-decoration: none;
 }
 
 .hotels-card-title {
