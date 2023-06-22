@@ -99,12 +99,13 @@ body {
   justify-content: end;
   min-width: 270px;
   margin: 0;
-  padding: 14px 0;
+  padding: 0;
   list-style: none;
 }
 
 .navigation-buttons-item:last-child {
   margin-left: 20px;
+  padding: 14px 0;
 }
 
 .navigation-buttons-link {
@@ -114,7 +115,25 @@ body {
   text-decoration: none;
 }
 
+.navigation-buttons-list .navigation-buttons-item:nth-child(1) .navigation-buttons-link {
+  padding: 22px 12px;
+  background-image: url("../image/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-buttons-list .navigation-buttons-item:nth-child(2) .navigation-buttons-link {
+  position: relative;
+  padding: 22px 12px;
+  background-image: url("../image/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .navigation-buttons-like {
+  position: absolute;
+  top: 11px;
+  left: 20px;
   display: block;
   padding: 5px;
   padding-left: 4px;
