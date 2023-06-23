@@ -480,6 +480,7 @@ body {
   background-color: #82b3d3;
   border: none;
   border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 
 /* Подвал */
@@ -824,7 +825,7 @@ body {
   width: 191px;
 }
 
-.filter-apply-button {
+.filter-button {
   padding: 8px 50px;
   font-family: inherit;
   font-size: 16px;
@@ -833,24 +834,18 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #82b3d3;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-apply-button {
+  background-color: #82b3d3;
 }
 
 .filter-reset-button {
   margin-top: 32px;
-  padding: 8px 50px;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
-  border: none;
-  border-radius: 4px;
 }
 
 /* Найденные гостиницы */
@@ -1037,6 +1032,7 @@ body {
   background-color: #82b3d3;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .favorite-button-current {
