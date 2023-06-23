@@ -657,11 +657,26 @@ body {
   position: absolute;
   top: 64px;
   left: 613px;
-  padding: 18px 18px 15px 18px;
+  padding: 20px 19px 14px 19px;
   font-family: inherit;
   background-color: #f2f2f2;
   border: none;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.modal-close-button:active {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .modal-date-wrapper {
@@ -689,6 +704,7 @@ body {
   font-weight: 700;
   background-color: #f2f2f2;
   border: none;
+  border-radius: 4px 0 0 4px;
 }
 
 .field-value {
@@ -704,8 +720,14 @@ body {
 
 .calendar-button {
   width: 60px;
+  height: 48px;
   background-color: #f2f2f2;
   border: none;
+  background-image: url("../image/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 
 .notice-message {
@@ -740,23 +762,115 @@ body {
 }
 
 .modal-count-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
   margin: 0;
 }
 
-.modal-count-wrapper .modal-label {
+.adult-modal-label {
   margin-right: 46px;
 }
 
-.remove-button,
-.add-button {
+.child-modal-label {
+  margin-right: 82px;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  left: 57px;
+  top: 10px;
+  width: 26px;
+  height: 26px;
+  background-color: #83b3d3;
+  background-image: url("../image/tooltip.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 26px;
+}
+
+.tooltip-message {
+  position: absolute;
+  top: 52px;
+  left: -56px;
+  box-sizing: border-box;
+  display: none;
+  width: 256px;
+  padding: 20px 18px 23px 22px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #333333;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.tooltip-message::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 117px;
+  top: -6px;
+  transform: rotate(45deg);
+  background-color: #333333;
+}
+
+.tooltip:hover .tooltip-message{
+  display: block;
+}
+
+.count-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
+  height: 48px;
+  padding: 0;
+  color: rgba(117, 97, 87, 0.3);
   background-color: #f2f2f2;
   border: none;
+  cursor: pointer;
+}
+
+.count-button:hover {
+  color: #000000;
+}
+
+.count-button:focus svg {
+  color: #000000;
+  border: 3px solid #82b3d3;
+  border-radius: 4px;
+}
+
+.count-button:focus {
+  outline: none;
+}
+
+.count-button:active svg {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.remove-button {
+  border-radius: 4px 0 0 4px;
+}
+
+.remove-button svg {
+  padding: 9px 3px;
+}
+
+.add-button {
+  border-radius: 0 4px 4px 0;
+}
+
+.add-button svg {
+  padding: 3px;
 }
 
 .field-value {
   width: 31px;
-  padding: 14px 10px;
+  align-self: stretch;
 }
 
 .search-button {
@@ -771,18 +885,26 @@ body {
   background-color: #83b3d3;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.tooltip {
-  display: none;
+.search-button {
+  background-color: #82b3d3;
 }
 
-.tooltip-message {
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  background-color: #333333;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+.search-button:hover,
+.search-button:focus {
+  background-color: #68a2ca;
+  outline: none;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82b3d3;
+}
+
+.search-button:disabled {
+  background-color: #e5e5e5;
 }
 
 /* Каталог */
@@ -844,7 +966,7 @@ body {
 
 .breadcrumbs-link-home {
   width: 12px;
-  height: 21px;
+  height: 20px;
   background-image: url("../image/main-house.svg");
   background-repeat: no-repeat;
   background-position: center;
