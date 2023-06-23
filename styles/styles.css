@@ -1030,7 +1030,6 @@ body {
 .value-filter-group {
   width: 288px;
   margin: 0;
-  margin-right: 70px;
   padding: 0;
   border: none;
 }
@@ -1081,6 +1080,7 @@ body {
   flex-direction: column;
   justify-content: end;
   width: 191px;
+  margin-left: auto;
 }
 
 .filter-button {
