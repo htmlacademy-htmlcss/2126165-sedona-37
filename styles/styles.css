@@ -817,7 +817,7 @@ body {
   background-color: #333333;
 }
 
-.tooltip:hover .tooltip-message{
+.tooltip:hover .tooltip-message {
   display: block;
 }
 
@@ -1037,12 +1037,39 @@ body {
 
 .price-input {
   width: 60px;
-  padding: 12px 20px;
+  padding: 12px 6px 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+  background-color: #f2f2f2;
   border: none;
+}
+
+.price-input-start {
+  border-radius: 4px 0 0 4px;
+}
+
+.price-range-wrapper {
+  display: flex;
+  margin: 0;
+}
+
+.price-range {
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #f2f2f2;
+}
+
+.price-range-start {
+  margin-right: 2px;
+}
+
+.price-range-limit {
+  border-radius: 0 4px 4px 0;
 }
 
 .value-filter-range {
