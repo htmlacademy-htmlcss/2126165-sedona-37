@@ -555,6 +555,19 @@ body {
   justify-content: center;
 }
 
+.footer-social-button:hover svg,
+.footer-social-button:focus svg {
+  fill: #68a2ca;
+}
+
+.footer-social-button:focus {
+  outline: none;
+}
+
+.footer-social-button:active svg {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
 .phone-wrapper {
   display: grid;
   width: 450px;
@@ -570,9 +583,32 @@ body {
   color: #000000;
 }
 
+.footer-phone:hover,
+.footer-phone:focus {
+  color: #756157;
+  outline: none;
+}
+
+.footer-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .footer-logo {
   width: 115px;
   height: 33px;
+}
+
+.footer-logo:hover svg,
+.footer-logo:focus svg {
+  fill: #756157;
+}
+
+.footer-logo:focus {
+  outline: none;
+}
+
+.footer-logo:active svg {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 /* Модальное окно */
