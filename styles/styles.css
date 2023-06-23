@@ -772,16 +772,46 @@ body {
 }
 
 .breadcrumbs {
+  position: relative;
+  display: flex;
+  gap: 28px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
+.breadcrumbs-item::after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/arrow.svg");
+  left: 23px;
+  top: 5px;
+  width: 7px;
+  height: 10px;
+}
+
+.breadcrumbs-item:last-child::after {
+  content: none;
+}
+
 .breadcrumbs-link {
+  display: block;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.breadcrumbs-link-home {
+  width: 12px;
+  height: 21px;
+  background-image: url("../image/main-house.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Фильтр */
