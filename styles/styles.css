@@ -903,6 +903,7 @@ body {
 
 .view-list {
   display: flex;
+  gap: 8px;
   width: 160px;
   margin: 0;
   padding: 0;
@@ -910,8 +911,32 @@ body {
 }
 
 .view-button {
+  position: relative;
+  width: 48px;
+  height: 48px;
   padding: 0;
-  border: none;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.view-button-active {
+  border: 2px solid #000000;
+}
+
+.card-button {
+  background-image: url("../image/card-view.svg");
+}
+
+.slide-show-button {
+  background-image: url("../image/full-view.svg");
+}
+
+.list-button {
+  background-image: url("../image/list-view.svg");
 }
 
 /* Карточки */
