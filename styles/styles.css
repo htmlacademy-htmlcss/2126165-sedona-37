@@ -115,17 +115,21 @@ body {
   text-decoration: none;
 }
 
-.navigation-buttons-list .navigation-buttons-item:nth-child(1) .navigation-buttons-link {
-  padding: 22px 12px;
+.navigation-buttons-search {
+  box-sizing: border-box;
+  width: 44px;
+  height: 64px;
   background-image: url("../image/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
 }
 
-.navigation-buttons-list .navigation-buttons-item:nth-child(2) .navigation-buttons-link {
+.navigation-buttons-favorites {
   position: relative;
-  padding: 22px 12px;
+  box-sizing: border-box;
+  width: 44px;
+  height: 64px;
   background-image: url("../image/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
