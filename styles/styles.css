@@ -1248,9 +1248,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 140px);
   grid-template-rows: 212px 1fr;
-  justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 16px 20px;
   min-width: 300px;
   padding: 20px;
   border: 1px solid #e6e6e6;
