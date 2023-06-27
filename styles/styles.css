@@ -1249,6 +1249,7 @@ body {
   grid-template-columns: repeat(2, 140px);
   grid-template-rows: 212px 1fr;
   justify-content: space-between;
+  align-items: center;
   gap: 16px;
   min-width: 300px;
   padding: 20px;
@@ -1383,7 +1384,6 @@ body {
 }
 
 .hotel-stars {
-  align-self: center;
   margin: 0;
   height: 17px;
   width: 18px;
