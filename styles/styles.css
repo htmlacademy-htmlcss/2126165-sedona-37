@@ -1247,6 +1247,7 @@ body {
 .hotels-card-item {
   display: grid;
   grid-template-columns: repeat(2, 140px);
+  grid-template-rows: 212px 1fr;
   justify-content: space-between;
   gap: 16px;
   min-width: 300px;
