@@ -130,15 +130,24 @@
               <fieldset class="value-filter-group">
                 <legend class="hotel-filter-title">Стоимость, ₽:</legend>
                 <p class="price-range-wrapper">
-                  <input class="price-input price-input-start" type="number" name="value-from" id="value-from" min="0" placeholder="0"
-                    value="0">
+                  <input class="price-input price-input-start" type="number" name="value-from" id="value-from" min="0"
+                    placeholder="0" value="0">
                   <label class="price-range price-range-start" for="value-from">От</label>
-                  <input class="price-input price-input-limit" type="number" name="value-to" id="value-to" max="9000" placeholder="9000"
-                    value="9000">
+                  <input class="price-input price-input-limit" type="number" name="value-to" id="value-to" max="9000"
+                    placeholder="9000" value="9000">
                   <label class="price-range price-range-limit" for="value-to">До</label>
-                  <label class="visually-hidden" for="value-range">Ползунок диапазона стоимости</label>
-                  <!-- <input class="value-filter-range" type="range" min="0" max="9000" value="7000" id="value-range"> -->
-                </p>
+                <div class="range-slider">
+                  <div class="range-slider-scale">
+                    <div class="range-slider-bar">
+                      <button class="range-toggle toggle-min">
+                        <span class="visually-hidden">Изменить минимальную стоимость.</span>
+                      </button>
+                      <button class="range-toggle toggle-max">
+                        <span class="visually-hidden">Изменить максимальную стоимость.</span>
+                      </button>
+                    </div>
+                  </div>
+                  </p>
               </fieldset>
 
               <div class="filter-buttons-wrapper">

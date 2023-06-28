@@ -1055,6 +1055,7 @@ body {
 .price-range-wrapper {
   display: flex;
   margin: 0;
+  margin-bottom: 48px;
 }
 
 .price-range {
@@ -1076,6 +1077,48 @@ body {
 
 .value-filter-range {
   margin: 0;
+}
+
+.range-slider-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-slider-bar {
+  position: absolute;
+  left: 0;
+  right: 60px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83b3d3;
+}
+
+.range-toggle:active {
+  outline: 2px solid #83b3d3;
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
 }
 
 .filter-buttons-wrapper {
