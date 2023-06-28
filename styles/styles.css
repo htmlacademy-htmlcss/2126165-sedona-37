@@ -182,7 +182,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.wish-button:disabled {
+.wish-button.link-disabled {
   background-color: #e5e5e5;
 }
 
@@ -431,7 +431,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.hotel-search-button:disabled {
+.hotel-search-button.link-disabled {
   background-color: #e5e5e5;
 }
 
@@ -872,7 +872,7 @@ body {
   align-self: stretch;
 }
 
-.search-button {
+.modal-search-button {
   padding: 18px 257px;
   font-family: inherit;
   font-size: 20px;
@@ -880,6 +880,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
   background-color: #83b3d3;
   border: none;
@@ -887,22 +888,18 @@ body {
   cursor: pointer;
 }
 
-.search-button {
-  background-color: #82b3d3;
-}
-
-.search-button:hover,
-.search-button:focus {
+.modal-search-button:hover,
+.modal-search-button:focus {
   background-color: #68a2ca;
   outline: none;
 }
 
-.search-button:active {
+.modal-search-button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #82b3d3;
 }
 
-.search-button:disabled {
+.modal-search-button.link-disabled {
   background-color: #e5e5e5;
 }
 
@@ -1325,7 +1322,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.more-button:disabled {
+.more-button.link-disabled {
   background-color: #e5e5e5;
 }
 
