@@ -767,41 +767,48 @@ body {
 }
 
 .modal-count-wrapper {
-  position: relative;
   display: flex;
   align-items: center;
   margin: 0;
 }
 
-.adult-modal-label {
-  margin-right: 46px;
-}
-
-.child-modal-label {
-  margin-right: 46px;
+.child-modal-wrapper {
+  position: relative;
   padding-right: 36px;
 }
 
-.tooltip::after {
-  content: "";
+.tooltip {
   position: absolute;
-  left: 57px;
-  top: 10px;
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  margin-left: 9px;
+}
+
+.tooltip-toggle {
+  display: block;
   width: 26px;
-  height: 26px;
+  height: 25px;
+  border: none;
+  border-radius: 26px;
   background-color: #83b3d3;
   background-image: url("../image/tooltip.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 26px;
+}
+
+.tooltip-toggle:hover,
+.tooltip-toggle:focus,
+.tooltip-toggle:active {
+  background-color: #68a2ca;
 }
 
 .tooltip-message {
-  position: absolute;
-  top: 52px;
-  left: -56px;
   box-sizing: border-box;
+  position: absolute;
   display: none;
+  top: 41px;
+  left: -115px;
   width: 256px;
   padding: 20px 18px 23px 22px;
   font-size: 16px;
@@ -823,7 +830,8 @@ body {
   background-color: #333333;
 }
 
-.tooltip:hover .tooltip-message {
+.tooltip-toggle:hover + .tooltip-message,
+.tooltip-toggle:focus + .tooltip-message {
   display: block;
 }
 
@@ -859,6 +867,7 @@ body {
 }
 
 .remove-button {
+  margin-left: 46px;
   border-radius: 4px 0 0 4px;
 }
 
@@ -1283,7 +1292,7 @@ body {
   color: #333333;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
-  background-image: url("../image/arrow.svg");
+  background-image: url("../image/expand.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   appearance: none;
