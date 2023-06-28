@@ -697,15 +697,33 @@ body {
 
 .modal-field {
   box-sizing: border-box;
-  width: 380px;
-  padding: 12px 227px 12px 20px;
+  width: 440px;
+  padding: 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   background-color: #f2f2f2;
+  background-image: url("../image/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: 400px 14px;
   border: none;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
+}
+
+.modal-field::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-field:hover {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-field:focus {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.6);
+  outline: 3px solid #83b3d3;
 }
 
 .field-value {
@@ -717,18 +735,6 @@ body {
   text-align: center;
   background-color: #f2f2f2;
   border: none;
-}
-
-.calendar-button {
-  width: 60px;
-  height: 48px;
-  background-color: #f2f2f2;
-  border: none;
-  background-image: url("../image/calendar.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
 }
 
 .notice-message {
@@ -772,7 +778,8 @@ body {
 }
 
 .child-modal-label {
-  margin-right: 82px;
+  margin-right: 46px;
+  padding-right: 36px;
 }
 
 .tooltip::after {
