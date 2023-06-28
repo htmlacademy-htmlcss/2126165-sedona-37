@@ -934,8 +934,13 @@ body {
 
 /* Шапка фильтра */
 
+.catalog-main-header {
+  margin-bottom: 40px;
+}
+
 .main-title {
   margin: 0;
+  margin-bottom: 8px;
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
@@ -1103,7 +1108,7 @@ body {
 .price-range-wrapper {
   display: flex;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 44px;
 }
 
 .price-range {
@@ -1147,6 +1152,10 @@ body {
   font-weight: 700;
   background-color: #f2f2f2;
   border: none;
+}
+
+.range-slider {
+  margin-bottom: 8px;
 }
 
 .range-slider-scale {
@@ -1194,9 +1203,9 @@ body {
 .filter-buttons-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: end;
   width: 191px;
   margin-left: auto;
+  margin-top: 56px;
 }
 
 .filter-button {
@@ -1234,7 +1243,7 @@ body {
 
 .filter-reset-button {
   margin-top: 32px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 .filter-reset-button:hover {
@@ -1290,7 +1299,9 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  border: 2px solid #e5e5e5;
+  background-color: #ffffff;
+  border: none;
+  outline: 2px solid #e5e5e5;
   border-radius: 4px;
   background-image: url("../image/expand.svg");
   background-repeat: no-repeat;
@@ -1299,13 +1310,15 @@ body {
 }
 
 .found-hotels-sort:hover,
-.found-hotels-sort:focus {
-  border: 2px solid #68a2ca;
+.found-hotels-sort:focus,
+.found-hotels-sort:active {
+  border: none;
+  outline: 2px solid #68a2ca;
 }
 
 .found-hotels-sort:disabled {
   color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  outline: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .found-hotels-option {
