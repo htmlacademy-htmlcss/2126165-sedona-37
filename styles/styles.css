@@ -1037,21 +1037,6 @@ body {
   border: none;
 }
 
-.price-input {
-  width: 60px;
-  padding: 12px 6px 12px 20px;
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  background-color: #f2f2f2;
-  border: none;
-}
-
-.price-input-start {
-  border-radius: 4px 0 0 4px;
-}
-
 .price-range-wrapper {
   display: flex;
   margin: 0;
@@ -1067,16 +1052,38 @@ body {
   background-color: #f2f2f2;
 }
 
+.price-range:hover,
+.price-input:hover {
+  background-color: #e6e6e6;
+}
+
+.price-range:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.price-input:focus {
+  outline: none;
+}
+
 .price-range-start {
   margin-right: 2px;
+  border-radius: 4px 0 0 4px;
 }
 
 .price-range-limit {
   border-radius: 0 4px 4px 0;
 }
 
-.value-filter-range {
-  margin: 0;
+.price-input {
+  width: 80px;
+  padding: 0;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #f2f2f2;
+  border: none;
 }
 
 .range-slider-scale {
