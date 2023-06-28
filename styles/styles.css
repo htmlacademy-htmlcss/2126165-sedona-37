@@ -496,6 +496,21 @@ body {
   border-radius: 4px 0 0 4px;
 }
 
+.subscribe-field::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.subscribe-field:hover {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.subscribe-field:focus {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
 .subscribe-button {
   padding: 8px 50px;
   font-family: inherit;
