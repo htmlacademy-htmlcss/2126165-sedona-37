@@ -1006,6 +1006,51 @@ body {
   list-style: none;
 }
 
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.control-input {
+  margin: 0;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../image/tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control-input:focus + .control-mark {
+  outline: 3px solid #83b3d3;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
 .housing-filter-group {
   flex-basis: 150px;
   margin: 0;
@@ -1020,14 +1065,18 @@ body {
   list-style: none;
 }
 
-.control {
-  font-size: 18px;
-  line-height: 23px;
-  color: #ffffff;
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
 }
 
-.control-input {
-  margin: 0;
+.control-input[type="radio"]:checked + .control-mark::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../image/circle-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .value-filter-group {
