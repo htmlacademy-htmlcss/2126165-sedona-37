@@ -640,6 +640,7 @@ body {
 }
 
 .modal-search-form {
+  position: relative;
   width: 577px;
   display: flex;
   flex-direction: column;
@@ -683,7 +684,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  margin-bottom: 4px;
+  margin-bottom: 48px;
 }
 
 .modal-label {
@@ -732,11 +733,10 @@ body {
 
 .notice-message {
   box-sizing: border-box;
-  width: 320px;
+  position: absolute;
+  top: 52px;
+  left: 157px;
   margin: 0;
-  margin-left: 137px;
-  margin-bottom: 23px;
-  padding: 0 20px;
   font-size: 16px;
   line-height: 21px;
   color: #ff5757;
@@ -744,11 +744,10 @@ body {
 
 .approval-message {
   box-sizing: border-box;
-  width: 371px;
+  position: absolute;
+  top: 148px;
+  left: 157px;
   margin: 0;
-  margin-left: 137px;
-  margin-bottom: 23px;
-  padding: 0 20px;
   font-size: 16px;
   line-height: 21px;
   color: #333333;
