@@ -1148,46 +1148,17 @@ body {
 }
 
 .price-range-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0;
   margin-bottom: 44px;
 }
 
-.price-range {
-  padding: 12px 20px;
-  font-size: 18px;
-  line-height: 24px;
-  text-transform: lowercase;
-  color: rgba(0, 0, 0, 0.3);
-  background-color: #f2f2f2;
-}
-
-.price-range:hover,
-.price-input:hover {
-  background-color: #e6e6e6;
-}
-
-.price-range:focus {
-  background-color: #e6e6e6;
-  outline: 3px solid #83b3d3;
-}
-
-.price-input:focus {
-  outline: none;
-}
-
-.price-range-start {
-  border-radius: 4px 0 0 4px;
-}
-
-.price-range-limit {
-  border-radius: 0 4px 4px 0;
-}
-
 .price-input {
-  width: 80px;
-  padding: 0;
+  box-sizing: border-box;
+  width: 143px;
+  padding: 12px 42px 12px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
@@ -1197,11 +1168,38 @@ body {
 }
 
 .price-input-start {
-  width: 83px;
+  border-radius: 4px 0 0 4px;
 }
 
 .price-input-limit {
-  width: 77px;
+  border-radius: 0 4px 4px 0;
+}
+
+.price-input:hover {
+  background-color: #e6e6e6;
+}
+
+.price-input:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.price-range {
+  position: absolute;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.price-range-start {
+  left: 107px;
+  top: 12px;
+}
+
+.price-range-limit {
+  right: 20px;
+  top: 13px;
 }
 
 .range-slider {
