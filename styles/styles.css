@@ -61,7 +61,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -1028,18 +1028,14 @@ input[type=number] {
   position: relative;
 }
 
-.breadcrumbs-item::after {
+.breadcrumbs-item:not(:first-child)::before {
   content: "";
   position: absolute;
   background-image: url("../image/arrow.svg");
-  left: 23px;
-  top: 5px;
   width: 7px;
   height: 10px;
-}
-
-.breadcrumbs-item:last-child::after {
-  content: none;
+  margin-left: -18px;
+  margin-top: 5px;
 }
 
 .breadcrumbs-link {
