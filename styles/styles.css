@@ -55,6 +55,16 @@ body {
   background-color: #f2f2f2;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 /* Главная */
 
 /* Шапка */
@@ -943,6 +953,7 @@ body {
 .field-value {
   box-sizing: border-box;
   width: 31px;
+  height: 48px;
   padding: 14px 10px;
 }
 
