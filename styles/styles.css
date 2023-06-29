@@ -132,6 +132,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
+  transition: transform 0.3s;
+}
+
+.navigation-buttons-search:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
 .navigation-buttons-favorites {
@@ -143,6 +149,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
+  transition: transform 0.3s;
+}
+
+.navigation-buttons-favorites:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
 .navigation-buttons-like {
