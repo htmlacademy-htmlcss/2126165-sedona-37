@@ -1341,7 +1341,7 @@ body {
 
 .found-hotels-sort {
   width: 100%;
-  padding: 12px 20px;
+  padding: 14px 20px;
   padding-right: 48px;
   font-family: inherit;
   font-size: 18px;
@@ -1442,7 +1442,7 @@ body {
   gap: 16px 20px;
   min-width: 300px;
   padding: 20px;
-  border: 1px solid #e6e6e6;
+  outline: 1px solid #e6e6e6;
   border-radius: 4px;
 }
 
@@ -1604,7 +1604,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 36px;
+  min-height: 37px;
   margin: 0;
   padding: 8px 22px;
   font-size: 16px;
@@ -1654,10 +1654,6 @@ body {
 .pagination-link-expand {
   color: #000000;
   background-color: #ffffff;
-}
-
-.hotels-pagination-item:last-child .pagination-link {
-  padding: 12px 20px 13px;
 }
 
 .pagination-link-base:hover,
