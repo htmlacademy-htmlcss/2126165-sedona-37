@@ -1004,7 +1004,7 @@ input[type="number"] {
 /* Шапка фильтра */
 
 .catalog-main-header {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .main-title {
@@ -1074,12 +1074,16 @@ input[type="number"] {
   flex-wrap: wrap;
 }
 
-.infrastructure-filter-group {
-  flex-basis: 150px;
+.filter-group {
   margin: 0;
-  margin-right: 70px;
+  margin-top: 10px;
   padding: 0;
   border: none;
+}
+
+.infrastructure-filter-group {
+  width: 150px;
+  margin-right: 70px;
 }
 
 .hotel-filter-title {
@@ -1148,11 +1152,8 @@ input[type="number"] {
 }
 
 .housing-filter-group {
-  flex-basis: 150px;
-  margin: 0;
+  width: 150px;
   margin-right: 141px;
-  padding: 0;
-  border: none;
 }
 
 .housing-filter-list {
@@ -1177,9 +1178,7 @@ input[type="number"] {
 
 .value-filter-group {
   width: 288px;
-  margin: 0;
-  padding: 0;
-  border: none;
+  margin-right: 70px;
 }
 
 .price-range-wrapper {
@@ -1287,8 +1286,7 @@ input[type="number"] {
   display: flex;
   flex-direction: column;
   width: 191px;
-  margin-left: auto;
-  padding-top: 56px;
+  padding-top: 66px;
 }
 
 .filter-button {
@@ -1353,13 +1351,15 @@ input[type="number"] {
 
 .sort-wrapper {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
   margin-bottom: 40px;
 }
 
 .found-hotels-title {
-  max-width: 350px;
+  max-width: 460px;
   margin: 0;
+  padding: 6px 0;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -1410,6 +1410,7 @@ input[type="number"] {
 
 .view-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   width: 160px;
   margin: 0;
@@ -1473,7 +1474,7 @@ input[type="number"] {
   display: grid;
   grid-template-columns: repeat(2, 140px);
   grid-template-rows: 212px 1fr;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px 20px;
   min-width: 300px;
   padding: 20px;
@@ -1495,6 +1496,14 @@ input[type="number"] {
   grid-column: 1 / -1;
   color: #000000;
   text-decoration: none;
+}
+
+.card-link-title:focus .hotels-card-title {
+  outline: 2px solid #68a2ca;
+}
+
+.card-link-title:focus {
+  outline: none;
 }
 
 .hotels-card-title {
