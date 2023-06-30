@@ -228,7 +228,7 @@ input[type="number"] {
 }
 
 .navigation-buttons-wish {
-  padding: 8px 34px 8px 35px;
+  padding: 8px 34px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -1077,7 +1077,7 @@ input[type="number"] {
   margin-bottom: 30px;
 }
 
-.main-title {
+.catalog-main-title {
   margin: 0;
   margin-bottom: 8px;
   font-size: 60px;
