@@ -578,6 +578,7 @@ input[type="number"] {
 }
 
 .subscribe-button {
+  max-width: 232px;
   padding: 8px 50px;
   font-family: inherit;
   font-size: 20px;
