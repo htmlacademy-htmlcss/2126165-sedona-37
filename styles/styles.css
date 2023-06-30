@@ -83,13 +83,13 @@ input[type="number"] {
   left: 70px;
 }
 
+.header-logo:focus {
+  outline: none;
+}
+
 .header-logo:focus .header-logo-image {
   outline: 3px solid #68a2ca;
   border-radius: 4px;
-}
-
-.header-logo:focus {
-  outline: none;
 }
 
 .navigation-list {
@@ -405,6 +405,10 @@ input[type="number"] {
   width: 400px;
 }
 
+.services-item:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
 .services-item::before {
   content: "";
   position: absolute;
@@ -428,14 +432,10 @@ input[type="number"] {
   background-image: url("../image/present.svg");
 }
 
-.services-item:nth-child(odd) {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
 .services-item-title {
   margin: 0;
   padding-top: 102px;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -510,6 +510,7 @@ input[type="number"] {
   min-height: 414px;
   padding-top: 96px;
   padding-bottom: 104px;
+  text-align: center;
 }
 
 .subscribe-title {
@@ -520,14 +521,12 @@ input[type="number"] {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .subscribe-description {
   width: 540px;
   margin: 0 auto;
   margin-bottom: 55px;
-  text-align: center;
 }
 
 .index-subscribe {
@@ -622,6 +621,7 @@ input[type="number"] {
 
 .footer-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
 }
 
@@ -737,9 +737,9 @@ input[type="number"] {
 
 .modal-search-form {
   position: relative;
-  width: 577px;
   display: flex;
   flex-direction: column;
+  width: 577px;
 }
 
 .modal-title {
@@ -754,7 +754,11 @@ input[type="number"] {
   position: absolute;
   top: 64px;
   left: 613px;
-  padding: 20px 19px 14px 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
   font-family: inherit;
   background-color: #f2f2f2;
   border: none;
@@ -915,8 +919,8 @@ input[type="number"] {
 }
 
 .tooltip-message {
-  box-sizing: border-box;
   position: absolute;
+  box-sizing: border-box;
   display: none;
   top: 41px;
   left: -115px;
@@ -948,8 +952,11 @@ input[type="number"] {
   padding-bottom: 45px;
 }
 
-.tooltip:hover .tooltip-message,
-.tooltip:focus .tooltip-message {
+.tooltip:hover .tooltip-message {
+  display: block;
+}
+
+.tooltip-toggle:focus + .tooltip-message {
   display: block;
 }
 
@@ -1020,7 +1027,7 @@ input[type="number"] {
 }
 
 .modal-search-button {
-  padding: 18px 140px;
+  padding: 18px 60px;
   font-family: inherit;
   font-size: 20px;
   line-height: 24px;
@@ -1079,7 +1086,6 @@ input[type="number"] {
 }
 
 .breadcrumbs {
-  position: relative;
   display: flex;
   gap: 29px;
   margin: 0;
@@ -1094,11 +1100,11 @@ input[type="number"] {
 .breadcrumbs-item:not(:first-child)::before {
   content: "";
   position: absolute;
-  background-image: url("../image/arrow.svg");
   width: 7px;
   height: 10px;
   margin-left: -18px;
   margin-top: 5px;
+  background-image: url("../image/arrow.svg");
 }
 
 .breadcrumbs-link {
@@ -1133,8 +1139,8 @@ input[type="number"] {
 
 .hotel-filter-form {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .filter-group {
@@ -1436,8 +1442,7 @@ input[type="number"] {
 
 .found-hotels-sort {
   width: 100%;
-  padding: 14px 18px 13px 20px;
-  padding-right: 48px;
+  padding: 14px 48px 13px 20px;
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
@@ -1509,7 +1514,7 @@ input[type="number"] {
   outline: 2px solid #000000;
 }
 
-.card-button {
+.cards-button {
   background-image: url("../image/card-view.svg");
 }
 
@@ -1541,7 +1546,6 @@ input[type="number"] {
   grid-template-rows: 212px 1fr;
   align-items: flex-start;
   gap: 16px 20px;
-  min-width: 300px;
   padding: 20px;
   outline: 1px solid #e6e6e6;
   border-radius: 4px;
@@ -1563,25 +1567,26 @@ input[type="number"] {
   text-decoration: none;
 }
 
+.card-link-title:hover {
+  color: #756157;
+}
+
 .card-link-title:focus .hotels-card-title {
-  outline: 2px solid #68a2ca;
-  border-radius: 4px;
+  color: #756157;
 }
 
 .card-link-title:focus {
   outline: none;
 }
 
+.card-link-title:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .hotels-card-title {
   margin: 0;
   font-size: 24px;
   line-height: 28px;
-}
-
-.hotels-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px 20px;
 }
 
 .hotels-card-text {
@@ -1597,7 +1602,7 @@ input[type="number"] {
   color: #333333;
 }
 
-.more-button {
+.card-button {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -1609,9 +1614,12 @@ input[type="number"] {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  border-radius: 4px;
+}
+
+.more-button {
   background-color: #756157;
   text-decoration: none;
-  border-radius: 4px;
 }
 
 .more-button:hover,
@@ -1630,22 +1638,10 @@ input[type="number"] {
 }
 
 .favorite-button {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 36px;
   padding: 0;
   font-family: inherit;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
   background-color: #82b3d3;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -1720,7 +1716,6 @@ input[type="number"] {
   align-items: center;
   min-height: 37px;
   margin: 0;
-  padding: 8px 22px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
