@@ -80,7 +80,7 @@
             <h2 class="visually-hidden">Фильтр каталога гостиниц</h2>
 
             <form class="hotel-filter-form" action="https://echo.htmlacademy.ru/" method="post">
-              <fieldset class="infrastructure-filter-group">
+              <fieldset class="filter-group infrastructure-filter-group">
                 <legend class="hotel-filter-title">Инфраструктура:</legend>
                 <ul class="infrastructure-filter-list">
                   <li class="filter-item infrastructure-filter-item">
@@ -107,7 +107,7 @@
                 </ul>
               </fieldset>
 
-              <fieldset class="housing-filter-group">
+              <fieldset class="filter-group housing-filter-group">
                 <legend class="hotel-filter-title">Тип жилья:</legend>
                 <ul class="housing-filter-list">
                   <li class="filter-item housing-filter-item">
@@ -135,19 +135,17 @@
                 </ul>
               </fieldset>
 
-              <fieldset class="value-filter-group">
+              <fieldset class="filter-group value-filter-group">
                 <legend class="hotel-filter-title">Стоимость, ₽:</legend>
                 <p class="price-range-wrapper">
-                  <label class="price-range price-range-start" for="value-from">
-                    <input class="price-input price-input-start" type="number" name="value-from" id="value-from" min="0"
-                      placeholder="0" value="0">
-                    <span class="price-input-text">От</span>
-                  </label>
-                  <label class="price-range price-range-limit" for="value-to">
-                    <input class="price-input price-input-limit" type="number" name="value-to" id="value-to" max="9000"
-                      placeholder="9000" value="9000">
-                    <span class="price-input-text">До</span>
-                  </label>
+                  <label class="visually-hidden" for="value-from">Стоимость, от</label>
+                  <input class="price-input price-input-start" type="number" name="value-from" id="value-from" min="0"
+                    placeholder="0" value="0">
+                  <span class="price-range price-range-start">От</span>
+                  <label class="visually-hidden" for="value-to">Стоимость, до</label>
+                  <input class="price-input price-input-limit" type="number" name="value-to" id="value-to" max="9000"
+                    placeholder="9000" value="9000">
+                  <span class="price-range price-range-limit">До</span>
                 </p>
                 <div class="range-slider">
                   <div class="range-slider-scale">
@@ -284,7 +282,7 @@
 
           <ul class="hotels-pagination">
             <li class="hotels-pagination-item">
-              <a href="#" class="pagination-link pagination-link-current">1</a>
+              <a class="pagination-link pagination-link-current">1</a>
             </li>
             <li class="hotels-pagination-item">
               <a href="#" class="pagination-link pagination-link-base">2</a>
