@@ -717,6 +717,10 @@ input[type="number"] {
   display: flex;
 }
 
+.modal-no-scroll {
+  overflow: hidden;
+}
+
 .modal-wrapper {
   position: relative;
   box-sizing: border-box;
