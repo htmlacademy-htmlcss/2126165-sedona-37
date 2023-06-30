@@ -1088,7 +1088,8 @@ input[type="number"] {
 
 .breadcrumbs {
   display: flex;
-  gap: 29px;
+  flex-wrap: wrap;
+  gap: 10px 29px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1098,13 +1099,13 @@ input[type="number"] {
   position: relative;
 }
 
-.breadcrumbs-item:not(:first-child)::before {
+.breadcrumbs-item:not(:last-child)::after {
   content: "";
   position: absolute;
+  top: 5px;
+  right: -18px;
   width: 7px;
   height: 10px;
-  margin-left: -18px;
-  margin-top: 5px;
   background-image: url("../image/arrow.svg");
 }
 
