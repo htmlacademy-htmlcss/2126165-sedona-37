@@ -123,10 +123,14 @@ input[type="number"] {
   outline: 3px solid #82b3d3;
 }
 
+.navigation-link:active {
+  outline: none;
+}
+
 .navigation-link-current::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 16px;
   right: 16px;
   height: 2px;
@@ -174,6 +178,10 @@ input[type="number"] {
   outline: 3px solid #82b3d3;
 }
 
+.navigation-buttons-search:active {
+  outline: none;
+}
+
 .navigation-buttons-favorites {
   position: relative;
   box-sizing: border-box;
@@ -196,6 +204,10 @@ input[type="number"] {
   outline: 3px solid #82b3d3;
 }
 
+.navigation-buttons-favorites:active {
+  outline: none;
+}
+
 .navigation-buttons-like {
   position: absolute;
   top: 11px;
@@ -212,7 +224,7 @@ input[type="number"] {
 }
 
 .wish-button {
-  padding: 8px 34px;
+  padding: 8px 34px 8px 35px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -242,8 +254,8 @@ input[type="number"] {
 .lead {
   box-sizing: border-box;
   min-height: 485px;
-  padding-top: 52px;
-  padding-bottom: 81px;
+  padding-top: 51px;
+  padding-bottom: 82px;
   background-color: #422110;
   background-image: url("../image/lead-decor.svg"),
     url("../image/mountain-background.jpg");
@@ -265,7 +277,7 @@ input[type="number"] {
 }
 
 .advantages-title {
-  width: 620px;
+  width: 660px;
   margin: 0 auto;
   margin-bottom: 25px;
   font-size: 30px;
@@ -385,7 +397,7 @@ input[type="number"] {
 .services-item {
   position: relative;
   box-sizing: border-box;
-  padding: 81px 75px;
+  padding: 82px 75px;
   width: 400px;
 }
 
@@ -395,7 +407,7 @@ input[type="number"] {
   width: 75px;
   height: 75px;
   top: 81px;
-  left: 164px;
+  left: 162px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -419,7 +431,7 @@ input[type="number"] {
 .services-item-title {
   margin: 0;
   padding-top: 102px;
-  padding-bottom: 31px;
+  padding-bottom: 29px;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -435,7 +447,7 @@ input[type="number"] {
 /* Поиск гостиницы */
 
 .hotel-search {
-  padding-top: 96px;
+  padding-top: 95px;
   padding-bottom: 96px;
   text-align: center;
 }
@@ -509,7 +521,7 @@ input[type="number"] {
 .subscribe-description {
   width: 540px;
   margin: 0 auto;
-  margin-bottom: 54px;
+  margin-bottom: 55px;
   text-align: center;
 }
 
@@ -1382,7 +1394,7 @@ input[type="number"] {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 41px;
 }
 
 .found-hotels-title {
@@ -1405,7 +1417,7 @@ input[type="number"] {
 
 .found-hotels-sort {
   width: 100%;
-  padding: 12px 18px;
+  padding: 14px 18px 13px 20px;
   padding-right: 48px;
   font-family: inherit;
   font-size: 18px;
@@ -1417,7 +1429,7 @@ input[type="number"] {
   border-radius: 4px;
   background-image: url("../image/expand.svg");
   background-repeat: no-repeat;
-  background-position: right 18px center;
+  background-position: right 20px center;
   appearance: none;
 }
 
