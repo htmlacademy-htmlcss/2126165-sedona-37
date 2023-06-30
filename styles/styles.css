@@ -578,8 +578,10 @@ input[type="number"] {
 }
 
 .subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 232px;
-  padding: 8px 50px;
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
