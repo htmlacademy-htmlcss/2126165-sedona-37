@@ -1560,7 +1560,8 @@ input[type="number"] {
 
 .hotels-card-image {
   display: block;
-  object-fit: cover;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .card-link-title {
