@@ -314,7 +314,7 @@ input[type="number"] {
   position: relative;
   width: 400px;
   box-sizing: border-box;
-  padding: 113px 85px;
+  padding: 113px 82px;
 }
 
 .advantages-item-wrapper::after {
@@ -998,6 +998,12 @@ input[type="number"] {
   padding: 14px 10px;
 }
 
+.field-value:focus {
+  outline: none;
+  border: 2px solid #82b3d3;
+  border-radius: 4px;
+}
+
 .modal-search-button {
   padding: 18px 140px;
   font-family: inherit;
@@ -1412,7 +1418,6 @@ input[type="number"] {
   align-items: center;
   width: 292px;
   margin-left: auto;
-  margin-right: 70px;
 }
 
 .found-hotels-sort {
@@ -1454,6 +1459,7 @@ input[type="number"] {
   gap: 8px;
   width: 160px;
   margin: 0;
+  margin-left: 70px;
   padding: 0;
   list-style: none;
 }
