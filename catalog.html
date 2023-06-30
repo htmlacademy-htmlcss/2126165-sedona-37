@@ -154,7 +154,6 @@
         </div>
         <!-- Найденные гостиницы -->
         <section class="found-hotels">
-          <h2 class="visually-hidden">Список найденных гостиниц.</h2>
           <div class="sort-wrapper">
             <p class="found-hotels-title">Найдено гостиниц: 38</p>
             <div class="hotels-sort-wrapper">
@@ -164,6 +163,7 @@
                 <option class="found-hotels-option" value="popular">Сначала популярные</option>
               </select>
             </div>
+            <h2 class="visually-hidden">Список гостиниц с фильтрами.</h2>
             <ul class="view-list">
               <li class="view-item">
                 <button class="view-button cards-button view-button-active" type="button">
@@ -210,7 +210,8 @@
               <span class="hotels-card-text">Гостиница</span>
               <span class="hotels-card-price">От 5000 ₽</span>
               <a class="card-button more-button" href="#">Подробнее</a>
-              <button class="card-button favorite-button favorite-button-current" type="button">В&nbsp;избранном</button>
+              <button class="card-button favorite-button favorite-button-current"
+                type="button">В&nbsp;избранном</button>
               <p class="hotel-stars hotel-stars-four">
                 <span class="visually-hidden">Звёздность гостиницы - 4 звезды.</span>
               </p>
@@ -278,8 +279,8 @@
           <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="newsletter-email">Электронная почта.</label>
-            <input class="subscribe-field" type="email" name="newsletter-email"
-              id="newsletter-email" placeholder="Ваш e-mail" required>
+            <input class="subscribe-field" type="email" name="newsletter-email" id="newsletter-email"
+              placeholder="Ваш e-mail" required>
             <button class="subscribe-button" type="submit">Подписаться</button>
           </form>
         </section>
