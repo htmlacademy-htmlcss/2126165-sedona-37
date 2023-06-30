@@ -251,6 +251,7 @@ input[type="number"] {
 
 .wish-button.link-disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 /* Лид */
@@ -499,6 +500,7 @@ input[type="number"] {
 
 .hotel-search-button.link-disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 /* Подписка */
@@ -609,6 +611,7 @@ input[type="number"] {
 
 .subscribe-button:disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 /* Подвал */
@@ -1045,6 +1048,7 @@ input[type="number"] {
 
 .modal-search-button.link-disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 /* Каталог */
@@ -1379,6 +1383,7 @@ input[type="number"] {
 
 .filter-apply-button:disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 .filter-reset-button {
@@ -1400,6 +1405,7 @@ input[type="number"] {
 
 .filter-reset-button:disabled {
   color: rgba(255, 255, 255, 0.1);
+  cursor: not-allowed;
 }
 
 /* Найденные гостиницы */
@@ -1459,6 +1465,7 @@ input[type="number"] {
 .found-hotels-sort:disabled {
   color: rgba(0, 0, 0, 0.3);
   outline: 2px solid rgba(0, 0, 0, 0.3);
+  cursor: not-allowed;
 }
 
 .found-hotels-option {
@@ -1623,6 +1630,7 @@ input[type="number"] {
 
 .more-button.link-disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 .favorite-button {
@@ -1658,6 +1666,7 @@ input[type="number"] {
 
 .favorite-button:disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 .favorite-button-current {
@@ -1677,6 +1686,7 @@ input[type="number"] {
 
 .favorite-button-current:disabled {
   background-color: #e5e5e5;
+  cursor: not-allowed;
 }
 
 .hotel-stars {
