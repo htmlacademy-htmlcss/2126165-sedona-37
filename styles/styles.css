@@ -83,6 +83,14 @@ input[type="number"] {
   left: 70px;
 }
 
+.header-logo:focus .header-logo-image {
+  outline: 3px solid #68a2ca;
+}
+
+.header-logo:focus {
+  outline: none;
+}
+
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
@@ -105,9 +113,14 @@ input[type="number"] {
   transition: background-color 1s;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link:focus {
   background-color: rgba(131, 179, 211, 0.2);
   transition: background-color 1s;
+}
+
+.navigation-link:focus {
+  outline: 3px solid #82b3d3;
 }
 
 .navigation-link-current::after {
@@ -151,9 +164,14 @@ input[type="number"] {
   transition: transform 0.3s;
 }
 
-.navigation-buttons-search:hover {
+.navigation-buttons-search:hover,
+.navigation-buttons-search:focus {
   transform: scale(1.2);
   transition: transform 0.3s;
+}
+
+.navigation-buttons-search:focus {
+  outline: 3px solid #82b3d3;
 }
 
 .navigation-buttons-favorites {
@@ -168,9 +186,14 @@ input[type="number"] {
   transition: transform 0.3s;
 }
 
-.navigation-buttons-favorites:hover {
+.navigation-buttons-favorites:hover,
+.navigation-buttons-favorites:focus {
   transform: scale(1.2);
   transition: transform 0.3s;
+}
+
+.navigation-buttons-favorites:focus {
+  outline: 3px solid #82b3d3;
 }
 
 .navigation-buttons-like {
@@ -1389,7 +1412,8 @@ input[type="number"] {
   line-height: 21px;
   color: #333333;
   background-color: #ffffff;
-  border: 2px solid #e5e5e5;
+  border: none;
+  outline: 2px solid #e5e5e5;
   border-radius: 4px;
   background-image: url("../image/expand.svg");
   background-repeat: no-repeat;
@@ -1400,7 +1424,6 @@ input[type="number"] {
 .found-hotels-sort:hover,
 .found-hotels-sort:focus,
 .found-hotels-sort:active {
-  border: none;
   outline: 2px solid #68a2ca;
 }
 
@@ -1428,7 +1451,8 @@ input[type="number"] {
   width: 48px;
   height: 48px;
   padding: 0;
-  border: 2px solid #e5e5e5;
+  border: none;
+  outline: 2px solid #e5e5e5;
   border-radius: 4px;
   background-color: #ffffff;
   background-repeat: no-repeat;
@@ -1437,16 +1461,19 @@ input[type="number"] {
 }
 
 .view-button-active {
-  border: 2px solid #000000;
+  outline: 2px solid #000000;
 }
 
-.view-button:hover,
-.view-button:active {
-  border: 2px solid #000000;
+.view-button:hover {
+  outline: 2px solid #000000;
 }
 
 .view-button:focus {
-  border: 2px solid #68a2ca;
+  outline: 2px solid #68a2ca;
+}
+
+.view-button:active {
+  outline: 2px solid #000000;
 }
 
 .card-button {
@@ -1704,6 +1731,10 @@ input[type="number"] {
 .pagination-link-expand {
   color: #000000;
   background-color: #ffffff;
+}
+
+.pagination-link:focus {
+  outline: none;
 }
 
 .pagination-link-base:hover,
