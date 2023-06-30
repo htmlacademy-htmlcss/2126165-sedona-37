@@ -85,6 +85,7 @@ input[type="number"] {
 
 .header-logo:focus .header-logo-image {
   outline: 3px solid #68a2ca;
+  border-radius: 4px;
 }
 
 .header-logo:focus {
@@ -121,6 +122,7 @@ input[type="number"] {
 
 .navigation-link:focus {
   outline: 3px solid #82b3d3;
+  border-radius: 4px;
 }
 
 .navigation-link:active {
@@ -176,6 +178,7 @@ input[type="number"] {
 
 .navigation-buttons-search:focus {
   outline: 3px solid #82b3d3;
+  border-radius: 4px;
 }
 
 .navigation-buttons-search:active {
@@ -202,6 +205,7 @@ input[type="number"] {
 
 .navigation-buttons-favorites:focus {
   outline: 3px solid #82b3d3;
+  border-radius: 4px;
 }
 
 .navigation-buttons-favorites:active {
@@ -1550,6 +1554,7 @@ input[type="number"] {
 
 .card-link-title:focus .hotels-card-title {
   outline: 2px solid #68a2ca;
+  border-radius: 4px;
 }
 
 .card-link-title:focus {
