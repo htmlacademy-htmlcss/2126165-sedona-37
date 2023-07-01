@@ -881,13 +881,11 @@ input[type="number"] {
 
 .adult-modal-label {
   width: 91px;
-  margin-right: 46px;
 }
 
 .child-count-wrapper {
   position: relative;
   width: 85px;
-  margin-right: 46px;
   padding-left: 6px;
 }
 
@@ -969,6 +967,7 @@ input[type="number"] {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-left: 46px;
 }
 
 .count-button {
