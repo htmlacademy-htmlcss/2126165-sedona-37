@@ -1298,8 +1298,8 @@ input[type="number"] {
 }
 
 .price-range-start {
-  left: 107px;
-  top: 12px;
+  top: 13px;
+  right: 165px;
 }
 
 .price-range-limit {
