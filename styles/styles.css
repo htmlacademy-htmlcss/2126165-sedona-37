@@ -23,7 +23,7 @@
   border: none;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -907,7 +907,8 @@ input[type="number"] {
   position: relative;
   grid-column: 3 / 4;
   justify-self: center;
-  padding-left: 6px;
+  padding-right: 40px;
+  padding-left: 47px;
 }
 
 .child-count-wrapper ~ .modal-count-buttons {
@@ -1436,7 +1437,7 @@ input[type="number"] {
   background-repeat: no-repeat;
   background-position: right 20px center;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 .found-hotels-sort:hover,
