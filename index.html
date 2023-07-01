@@ -11,7 +11,7 @@
   <body>
     <div class="page-wrapper">
       <!-- Шапка -->
-      <header class="page-header">
+      <header data-test="header" class="page-header">
         <nav class="header-nav">
           <a class="header-logo" href="#">
             <img class="header-logo-image" src="image/logo.svg" width="140" height="70" alt="Логотип Седоны.">
@@ -46,16 +46,16 @@
         </nav>
       </header>
       <!-- Основное содержимое -->
-      <main class="main-wrapper">
+      <main data-test="main" class="main-wrapper">
         <h1 class="visually-hidden">Неофициальный сайт города Седона.</h1>
         <!-- Лид -->
-        <section class="lead">
+        <section data-test="hero" class="lead">
           <h2 class="visually-hidden">Приглашение посетить город.</h2>
           <img class="lead-description-image" src="image/welcome-text.svg" width="458" height="352"
             alt="Добро пожаловать в великолепную Седону, потому что Гранд-Каньон отстой!">
         </section>
         <!-- Преимущества -->
-        <section class="advantages">
+        <section data-test="advantages" class="advantages">
           <h2 class="visually-hidden">Преимущества Седоны.</h2>
           <p class="advantages-title">Седона — небольшой городок в Аризоне,
             заслуживающий большего!</p>
@@ -98,7 +98,7 @@
           </ul>
         </section>
         <!-- Услуги -->
-        <section class="services">
+        <section data-test="service" class="services">
           <h2 class="visually-hidden">Услуги.</h2>
           <p class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
           <p class="services-description">Опытный персонал и качественное обслуживание!</p>
@@ -119,7 +119,7 @@
           </ul>
         </section>
         <!-- Поиск гостиницы -->
-        <section class="hotel-search">
+        <section data-test="search" class="hotel-search">
           <h2 class="visually-hidden">Поиск гостиницы.</h2>
           <p class="hotel-search-title">Заинтересовались?</p>
           <p class="hotel-search-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие
@@ -128,7 +128,7 @@
           <a class="hotel-search-button" href="#">Поиск гостиницы в Седоне</a>
         </section>
         <!-- Подписка -->
-        <section class="subscribe index-subscribe">
+        <section data-test="subscribe" class="subscribe index-subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -140,7 +140,7 @@
         </section>
       </main>
       <!-- Подвал -->
-      <footer class="page-footer">
+      <footer data-test="footer" class="page-footer">
         <div class="footer-wrapper">
           <ul class="footer-social-list">
             <li class="footer-social-item">
@@ -190,79 +190,7 @@
           </a>
         </div>
       </footer>
-      <!-- Модальное окно -->
-      <div class="modal">
-        <div class="modal-wrapper">
-          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-          <button class="modal-close-button" type="button">
-            <span class="visually-hidden">Закрыть окно.</span>
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" focusable="false">
-              <path
-                d="M14.3928 1.29231L13.1005 0L7.39282 5.70769L1.68513 0L0.392822 1.29231L6.10051 7L0.392822 12.7077L1.68513 14L7.39282 8.29231L13.1005 14L14.3928 12.7077L8.68513 7L14.3928 1.29231Z" />
-            </svg>
-          </button>
-          <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="modal-label" for="arrival-date">Дата заезда:</label>
-            <div class="modal-field-wrapper">
-              <input class="modal-field" type="text" name="arrival-date" id="arrival-date" value="27 апреля 2020"
-                placeholder="Укажите дату">
-              <p class="notice-message error-message">Мы не можем отправить вас в прошлое.</p>
-            </div>
-            <label class="modal-label" for="exit-date">Дата выезда:</label>
-            <div class="modal-field-wrapper">
-              <input class="modal-field" type="text" name="exit-date" id="exit-date" value="1 сентября 2023"
-                placeholder="Укажите дату">
-              <p class="notice-message approval-message">На эти даты есть свободные номера. Пока есть.</p>
-            </div>
-            <label class="modal-label" for="adult-value">Взрослые:</label>
-            <p class="modal-count-buttons">
-              <button class="count-button remove-button" type="button">
-                <span class="visually-hidden">Уменьшить количество взрослых на 1.</span>
-                <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true" focusable="false">
-                  <path d="M0 0L0 2L14 2V0L0 0Z" />
-                </svg>
-              </button>
-              <input class="field-value" type="number" name="adult-value" id="adult-value" value="2" placeholder="2">
-              <button class="count-button add-button" type="button">
-                <span class="visually-hidden">Увеличить количество взрослых на 1.</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true" focusable="false">
-                  <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
-                </svg>
-              </button>
-            </p>
-            <span class="modal-label child-count-wrapper">
-              <label class="modal-label" for="child-value">Дети:</label>
-              <span class="tooltip">
-                <button class="tooltip-toggle" aria-labelledby="tooltip-child-value" type="button"></button>
-                <span class="tooltip-message" role="tooltip" id="tooltip-child-value">Укажите количество детей,
-                  которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-              </span>
-            </span>
-            <p class="modal-count-buttons">
-              <button class="count-button remove-button" type="button">
-                <span class="visually-hidden">Уменьшить количество детей на 1.</span>
-                <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true" focusable="false">
-                  <path d="M0 0L0 2L14 2V0L0 0Z" />
-                </svg>
-              </button>
-              <input class="field-value" type="number" name="child-value" id="child-value" value="2" placeholder="2">
-              <button class="count-button add-button" type="button">
-                <span class="visually-hidden">Увеличить количество детей на 1.</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true" focusable="false">
-                  <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
-                </svg>
-              </button>
-            </p>
-            <a class="modal-search-button" href="#">Найти</a>
-          </form>
-        </div>
-      </div>
-    </div>
+
     <script src="script/script.js"></script>
   </body>
 
