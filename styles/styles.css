@@ -1536,7 +1536,7 @@ input[type="number"] {
 .hotels-card-image {
   display: block;
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card-link-title {
