@@ -867,13 +867,16 @@ input[type="number"] {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .modal-count-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
+  max-width: 250px;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .adult-modal-label {
@@ -885,6 +888,7 @@ input[type="number"] {
   position: relative;
   width: 85px;
   margin-right: 46px;
+  padding-left: 6px;
 }
 
 .child-modal-label {
@@ -896,7 +900,7 @@ input[type="number"] {
   width: 20px;
   height: 20px;
   margin-top: 0;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 .tooltip-toggle {
@@ -934,6 +938,7 @@ input[type="number"] {
   background-color: #333333;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  z-index: 1;
 }
 
 .tooltip-message::before {
