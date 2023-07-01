@@ -151,7 +151,7 @@ input[type="number"] {
   list-style: none;
 }
 
-.navigation-buttons-item:last-child {
+.wish-button-item {
   margin-left: 20px;
   padding: 14px 0;
 }
