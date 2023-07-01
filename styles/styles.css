@@ -22,7 +22,8 @@
   padding: 0;
   border: none;
   white-space: nowrap;
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -1429,7 +1430,8 @@ input[type="number"] {
   background-image: url("../image/expand.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
 }
 
 .found-hotels-sort:hover,
