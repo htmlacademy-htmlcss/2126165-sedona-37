@@ -736,6 +736,7 @@ input[type="number"] {
 }
 
 .modal-title {
+  max-width: 415px;
   margin: 0;
   margin-bottom: 64px;
   font-size: 30px;
@@ -775,22 +776,15 @@ input[type="number"] {
 
 .modal-search-form {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 577px;
-}
-
-.modal-date-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0;
-  margin-bottom: 23px;
+  display: grid;
+  grid-template-columns: 137px 110px 219px 110px;
+  grid-auto-flow: dense;
+  align-items: start;
 }
 
 .modal-label {
-  width: 119px;
+  grid-column: 1 / 2;
+  margin-bottom: 5px;
   padding: 12px 0;
   font-size: 20px;
   line-height: 24px;
@@ -799,13 +793,13 @@ input[type="number"] {
 }
 
 .modal-field-wrapper {
-  display: flex;
-  flex-direction: column;
+  grid-column: 2 / 5;
+  margin-bottom: 23px;
 }
 
 .modal-field {
   box-sizing: border-box;
-  width: 440px;
+  width: 100%;
   margin-bottom: 4px;
   padding: 12px 20px;
   font-family: inherit;
@@ -835,19 +829,7 @@ input[type="number"] {
   outline: 3px solid #83b3d3;
 }
 
-.field-value {
-  padding: 0;
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  background-color: #f2f2f2;
-  border: none;
-}
-
 .notice-message {
-  max-width: 400px;
   margin: 0;
   padding: 0 20px;
   font-size: 16px;
@@ -862,35 +844,88 @@ input[type="number"] {
   color: #333333;
 }
 
-.modal-count-container {
+.modal-count-buttons {
+  grid-column: 2 / 3;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-
-.modal-count-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  max-width: 250px;
   margin: 0;
-  margin-bottom: 8px;
 }
 
-.adult-modal-label {
-  width: 91px;
+.count-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 48px;
+  padding: 0;
+  color: rgba(117, 97, 87, 0.3);
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.count-button:hover {
+  color: #000000;
+}
+
+.count-button:focus svg {
+  color: #000000;
+  border: 3px solid #82b3d3;
+  border-radius: 4px;
+}
+
+.count-button:focus {
+  outline: none;
+}
+
+.count-button:active svg {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.remove-button {
+  border-radius: 4px 0 0 4px;
+}
+
+.remove-button svg {
+  padding: 9px 3px;
+}
+
+.add-button {
+  border-radius: 0 4px 4px 0;
+}
+
+.add-button svg {
+  padding: 3px;
 }
 
 .child-count-wrapper {
   position: relative;
-  width: 85px;
+  grid-column: 3 / 4;
+  justify-self: center;
   padding-left: 6px;
 }
 
-.child-modal-label {
+.child-count-wrapper ~ .modal-count-buttons {
+  grid-column: 4 / 5;
+}
+
+.field-value {
+  box-sizing: border-box;
+  width: 31px;
+  height: 48px;
   padding: 0;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.field-value:focus {
+  outline: none;
+  border: 3px solid #82b3d3;
+  border-radius: 4px;
 }
 
 .tooltip {
@@ -963,74 +998,9 @@ input[type="number"] {
   display: block;
 }
 
-.modal-count-buttons {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  margin-left: 46px;
-}
-
-.count-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 48px;
-  padding: 0;
-  color: rgba(117, 97, 87, 0.3);
-  background-color: #f2f2f2;
-  border: none;
-  cursor: pointer;
-}
-
-.count-button:hover {
-  color: #000000;
-}
-
-.count-button:focus svg {
-  color: #000000;
-  border: 3px solid #82b3d3;
-  border-radius: 4px;
-}
-
-.count-button:focus {
-  outline: none;
-}
-
-.count-button:active svg {
-  color: rgba(117, 97, 87, 0.3);
-}
-
-.remove-button {
-  border-radius: 4px 0 0 4px;
-}
-
-.remove-button svg {
-  padding: 9px 3px;
-}
-
-.add-button {
-  border-radius: 0 4px 4px 0;
-}
-
-.add-button svg {
-  padding: 3px;
-}
-
-.field-value {
-  box-sizing: border-box;
-  width: 31px;
-  height: 48px;
-  padding: 14px 10px;
-}
-
-.field-value:focus {
-  outline: none;
-  border: 2px solid #82b3d3;
-  border-radius: 4px;
-}
-
 .modal-search-button {
+  grid-column: 1 / 5;
+  margin-top: 43px;
   padding: 18px 60px;
   font-family: inherit;
   font-size: 20px;

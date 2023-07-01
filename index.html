@@ -203,73 +203,61 @@
             </svg>
           </button>
           <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
-            <div class="modal-date-wrapper">
-              <label class="modal-label" for="arrival-date">Дата заезда:</label>
-              <div class="modal-field-wrapper">
-                <input class="modal-field" type="text" name="arrival-date" id="arrival-date" value="27 апреля 2020"
-                  placeholder="Укажите дату">
-                <p class="notice-message error-message">Мы не можем отправить вас в прошлое.</p>
-              </div>
+            <label class="modal-label" for="arrival-date">Дата заезда:</label>
+            <div class="modal-field-wrapper">
+              <input class="modal-field" type="text" name="arrival-date" id="arrival-date" value="27 апреля 2020"
+                placeholder="Укажите дату">
+              <p class="notice-message error-message">Мы не можем отправить вас в прошлое.</p>
             </div>
-            <div class="modal-date-wrapper">
-              <label class="modal-label" for="exit-date">Дата выезда:</label>
-              <div class="modal-field-wrapper">
-                <input class="modal-field" type="text" name="exit-date" id="exit-date" value="1 сентября 2023"
-                  placeholder="Укажите дату">
-                <p class="notice-message approval-message">На эти даты есть свободные номера. Пока есть.</p>
-              </div>
+            <label class="modal-label" for="exit-date">Дата выезда:</label>
+            <div class="modal-field-wrapper">
+              <input class="modal-field" type="text" name="exit-date" id="exit-date" value="1 сентября 2023"
+                placeholder="Укажите дату">
+              <p class="notice-message approval-message">На эти даты есть свободные номера. Пока есть.</p>
             </div>
-            <div class="modal-count-container">
-              <div class="modal-count-wrapper">
-                <label class="modal-label adult-modal-label" for="adult-value">Взрослые:</label>
-                <p class="modal-count-buttons">
-                  <button class="count-button remove-button" type="button">
-                    <span class="visually-hidden">Уменьшить количество взрослых на 1.</span>
-                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true" focusable="false">
-                      <path d="M0 0L0 2L14 2V0L0 0Z" />
-                    </svg>
-                  </button>
-                  <input class="field-value" type="number" name="adult-value" id="adult-value" value="2"
-                    placeholder="2">
-                  <button class="count-button add-button" type="button">
-                    <span class="visually-hidden">Увеличить количество взрослых на 1.</span>
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
-                    </svg>
-                  </button>
-                </p>
-              </div>
-              <div class="modal-count-wrapper">
-                <span class="modal-label child-count-wrapper">
-                  <label class="modal-label child-modal-label" for="child-value">Дети:</label>
-                  <span class="tooltip">
-                    <button class="tooltip-toggle" aria-labelledby="tooltip-child-value" type="button"></button>
-                    <span class="tooltip-message" role="tooltip" id="tooltip-child-value">Укажите количество детей,
-                      которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-                  </span>
-                </span>
-                <p class="modal-count-buttons">
-                  <button class="count-button remove-button" type="button">
-                    <span class="visually-hidden">Уменьшить количество детей на 1.</span>
-                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true" focusable="false">
-                      <path d="M0 0L0 2L14 2V0L0 0Z" />
-                    </svg>
-                  </button>
-                  <input class="field-value" type="number" name="child-value" id="child-value" value="2"
-                    placeholder="2">
-                  <button class="count-button add-button" type="button">
-                    <span class="visually-hidden">Увеличить количество детей на 1.</span>
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
-                    </svg>
-                  </button>
-                </p>
-              </div>
-            </div>
+            <label class="modal-label" for="adult-value">Взрослые:</label>
+            <p class="modal-count-buttons">
+              <button class="count-button remove-button" type="button">
+                <span class="visually-hidden">Уменьшить количество взрослых на 1.</span>
+                <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true" focusable="false">
+                  <path d="M0 0L0 2L14 2V0L0 0Z" />
+                </svg>
+              </button>
+              <input class="field-value" type="number" name="adult-value" id="adult-value" value="2" placeholder="2">
+              <button class="count-button add-button" type="button">
+                <span class="visually-hidden">Увеличить количество взрослых на 1.</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true" focusable="false">
+                  <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                </svg>
+              </button>
+            </p>
+            <span class="modal-label child-count-wrapper">
+              <label class="modal-label" for="child-value">Дети:</label>
+              <span class="tooltip">
+                <button class="tooltip-toggle" aria-labelledby="tooltip-child-value" type="button"></button>
+                <span class="tooltip-message" role="tooltip" id="tooltip-child-value">Укажите количество детей,
+                  которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+            </span>
+            <p class="modal-count-buttons">
+              <button class="count-button remove-button" type="button">
+                <span class="visually-hidden">Уменьшить количество детей на 1.</span>
+                <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true" focusable="false">
+                  <path d="M0 0L0 2L14 2V0L0 0Z" />
+                </svg>
+              </button>
+              <input class="field-value" type="number" name="child-value" id="child-value" value="2" placeholder="2">
+              <button class="count-button add-button" type="button">
+                <span class="visually-hidden">Увеличить количество детей на 1.</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true" focusable="false">
+                  <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                </svg>
+              </button>
+            </p>
             <a class="modal-search-button" href="#">Найти</a>
           </form>
         </div>
