@@ -230,6 +230,8 @@ input[type="number"] {
 }
 
 .navigation-buttons-wish {
+  box-sizing: border-box;
+  max-width: 160px;
   padding: 8px 34px;
   font-size: 16px;
   line-height: 20px;
@@ -475,6 +477,8 @@ input[type="number"] {
 }
 
 .hotel-search-button {
+  box-sizing: border-box;
+  max-width: 600px;
   display: inline-block;
   margin: 0 auto;
   padding: 8px 50px;
